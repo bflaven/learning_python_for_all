@@ -1,0 +1,48 @@
+
+- comment va-t-on dans python ?
++ on ouvre le terminal (la console) et on tape python.
+
+
+- comment fait-on une adition, une soustraction, une multiplication et une division ?
+
++ une adition, c'est le signe + ;Par exemple 12+3
++ une soustraction, c'est le signe - ;Par exemple 12-3
++ une multiplication, c'est le signe * ;Par exemple 12*3
++ une division, c'est le signe / ;Par exemple 12/3
+
+
+- comment fait-on pour executer un script du nom de arthur-script-1.py ?
+
++ Voilà les 3 étapes pour lancer un script
+--- 1. On crée un fichier du nom de arthur-script-1.py
+--- 2. On se rend dans le répertoire contenant le fichier arthur-script-1.py dans la console
+--- 3. On lance dans la console le fichier arthur-script-1.py
+
++ commande_1
+cd /Users/brunoflaven/Documents/03_git/learning_python_for_all/003_code_for_family_lesson/
+
++ commande_2
+python arthur-script-1.py
+python arthur-script-2.py
+python arthur-script-3.py
+
+
+- Quelques commandes à taper dans la console
++ 1. Pour lister les fichiers dans la console je fais "ls -l"
++ 2. Pour savoir dans quel répertoire je suis je fais "pwd"
++ 3. Pour nettoyer la console, je fais "clear"
++ 4. Pour déplacer dans un repertoire précis, je fais "cd /Users/annelandois1/Documents/_code_for_family/"
+
+--- pwd :: abr de "print working directory"
+--- cd :: abr de "change directory"
+--- ls :: abr de "list"
+
+
+
+
+
+
+
+
+
+
