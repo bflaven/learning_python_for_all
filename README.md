@@ -93,7 +93,10 @@ git commit -am "add docker files"
 
 # push to github if your branch on github is master
 # git push origin master
-git push
+# git push
+# git push -u origin main
+git push origin master
+
 
 # Repair Permissions
 cd /Users/brunoflaven/Documents/03_git/ia_usages
