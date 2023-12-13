@@ -177,7 +177,6 @@ git push -u origin main
 # search for "Harnessing Code"
 # search for "Supercharge Code"
 
-Unleash the power of Atlas.ti with AI code generation: A 
 Unleash the power of Atlas.ti with AI code generation: A step-by-step guide
 Unleash Code LLAMA to Generate and Explain Code in Any Language!
 Unleash the POWER of Windows WSL! Master Linux Like a PRO
