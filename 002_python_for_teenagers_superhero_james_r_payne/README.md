@@ -1,4 +1,6 @@
-# 002_us_book_python_for_teenagers
+# 002_python_for_teenagers_superhero_james_r_payne
+
+**Python for Teenagers: Learn to Program like a Superhero! by James R. Payne**
 
 
 
