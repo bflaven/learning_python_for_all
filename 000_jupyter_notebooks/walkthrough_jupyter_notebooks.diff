@@ -1,0 +1,74 @@
+! # Python Code For Family Lessons
+
+For 001_notebook_beginner_fr_learn_python.ipynb, some questions has been asked to ChatGPT 3.5 and to Mistral AI
+
+[ChatGPT](https://chat.openai.com/)
+[Mistral AI](https://ollama.ai/library/mistral:text)
+
+
+
+! # PROMPT
+
+- PROMPT_1
+Can you give in simple words for Python programing, a defition a Class and some straightforward examples?
+
+- OUTPUT_PROMPT_1
+
+Let's break down the concept of a class in Python with simple words.
+
+**Class:**
+In Python, a class is like a blueprint or a template for creating objects. An object is an instance of a class, and it can have attributes (characteristics) and methods (actions).
+
+**Example:**
+Let's say we want to represent a simple entity, like a 'Car', using a class.
+
+```python
+# Define the class 'Car'
+class Car:
+    # This is a special method called the constructor
+    # It initializes the object with attributes
+    def __init__(self, make, model, year):
+        self.make = make  # attribute: make of the car
+        self.model = model  # attribute: model of the car
+        self.year = year  # attribute: manufacturing year of the car
+
+    # Method to display information about the car
+    def display_info(self):
+        print(f"{self.year} {self.make} {self.model}")
+
+# Create instances (objects) of the class 'Car'
+car1 = Car("Toyota", "Camry", 2020)
+car2 = Car("Honda", "Civic", 2022)
+
+# Access attributes and call methods of the objects
+print(f"Car 1: {car1.year} {car1.make} {car1.model}")
+print(f"Car 2: {car2.year} {car2.make} {car2.model}")
+
+# Use the method to display information
+car1.display_info()
+car2.display_info()
+```
+
+In this example:
+- `Car` is a class.
+- The `__init__` method is a special method that gets called when an object is created. It initializes the object with the provided attributes (`make`, `model`, `year`).
+- `display_info` is a method that prints information about the car.
+- `car1` and `car2` are objects (instances) of the `Car` class, each with its own set of attributes.
+
+So, a class helps you define a structure for your objects, and then you can create instances of that class with specific values for the attributes.
+
+
+! How to structure the notebook between markdown and code ?
+
+
+### HUMAIN
+
+### ChatGPT 3.5
+
+### Mistral AI
+
+
+
+
+
+
