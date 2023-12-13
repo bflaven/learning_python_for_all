@@ -1,4 +1,4 @@
-# 001_python_for_family
+# 001_python_crash_course_eric_matthes
 
 
 **A set of resources from Books, Exercises, Notebooks to discover and learn Python. It exists both in French and in English.**

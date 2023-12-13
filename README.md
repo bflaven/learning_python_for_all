@@ -14,23 +14,21 @@
 
 - **000_jupyter_notebooks:** Some notebooks to allow children (from 7 years old) or teenagers, or even seniors, to learn about programming. These elements were collected in particular to keep trainees occupied during their discovery internships in a professional environment. The vocation is for it to be autonomous and for this to produce visible results. It is therefore a very result-oriented initiation, favoring immediacy and practice, very little theoretical.
 
-- **001_python_for_family:**
-
-- **002_python_for_teenagers_superhero_james_r_payne:**
-
-- **003_code_for_family_lesson:**
-
-- **004_automate_boring_stuff_with_python_al_sweigart:**
-
-- **005_english_book_python_by_example:**
+- **001_python_crash_course_eric_matthes:** Summary and extract from the book `Python Crash Course, A Hands-On, Project-Based Introduction to Programming` by by Eric Matthes**
 
 
+- **002_python_for_teenagers_superhero_james_r_payne:** Summary and extract from the book `Python for Teenagers: Learn to Program like a Superhero!` by James R. Payne
+
+- **003_code_for_family_lesson:** My own modest stuff
+
+- **004_automate_boring_stuff_with_python_al_sweigart:** Summary and extract from the book `Automate the Boring Stuff with Python` by Al Sweigart
+
+- **005_python_by_example_150_challenges_nichola_lacey:** Summary and extract from the book `Python By Example: Learning To Program In 150 Challenges` by Nichola Lacey
 
 
-- "Python for Teenagers: Learn to Program like a Superhero!" by James R. Payne
-- "Python By Example: Learning To Program In 150 Challenges" by Nichola Lacey
-- "Python Game Programming By Example" by Alejandro Rodas de Paz, Joseph Howse
-- "Automate the Boring Stuff with Python" by Al Sweigart. 
+
+
+
 
 
 
@@ -80,9 +78,37 @@ python3 002_python_for_family.py
 ## 3. BOOKS TO LEARN PYTHON
 
 - "Python for Teenagers: Learn to Program like a Superhero!" by James R. Payne
+```bash
+https://link.springer.com/book/10.1007/978-1-4842-9988-3
+```
+
 - "Python By Example: Learning To Program In 150 Challenges" by Nichola Lacey
+```bash
+https://www.abebooks.com/9781108716833/Python-Example-Learning-Program-150-1108716830/plp
+```
+
+
 - "Python Game Programming By Example" by Alejandro Rodas de Paz, Joseph Howse
+
+```bash
+https://www.oreilly.com/library/view/python-game-programming/9781785281532/
+```
+
+
 - "Automate the Boring Stuff with Python" by Al Sweigart. 
+```bash
+https://automatetheboringstuff.com/
+```
+
+
+
+- "Python Crash Course, A Hands-On, Project-Based Introduction to Programming" by Eric Matthes
+
+```bash
+https://ehmatthes.github.io/pcc_3e/
+https://nostarch.com/python-crash-course-3rd-edition
+```
+
 
 
 ## 4. GIT COMMANDS REMINDER
