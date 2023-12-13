@@ -43,7 +43,7 @@ import tkinter as tk
 
 ```
 
-### Explaining the __name__ == '__main__'
+### Explaining the `__name__ == '__main__'`
 
 In the preceding snippet, we introduced the if __name__ == '__main__'
 condition, which is present in many Python scripts. This snippet checks the name of the current module that is being executed, and will prevent starting the main loop where this module was being imported from another script. This block is placed at the end of the script, since it requires that the Game class be defined.
