@@ -28,7 +28,7 @@ cd /Users/brunoflaven/Documents/03_git/learning_python_for_all/006_python_game_p
 
 
 # Launch the script
-python 001_chapter1_01_scripts_for_kids_game_programming.py
+python 002_scripts_for_kids_game_programming.py
 
 """
 
@@ -38,25 +38,25 @@ import tkinter as tk
    
 
 class Game(tk.Frame):
-def __init__(self, master):
+    def __init__(self, master):
 
 
-super(Game, self).__init__(master)
-self.lives = 3
-self.width = 610
-self.height = 400
-self.canvas = tk.Canvas(self, bg='#aaaaff',
-                        width=self.width,
-                        height=self.height)
+        super(Game, self).__init__(master)
+        self.lives = 3
+        self.width = 610
+        self.height = 400
+        self.canvas = tk.Canvas(self, bg='#aaaaff',
+                                width=self.width,
+                                height=self.height)
 
 
-self.canvas.pack()
-self.pack()
+        self.canvas.pack()
+        self.pack()
 
 
 # load it baby
 if __name__ == '__main__':
-root = tk.Tk()
-root.title('Hello, Pong!')
-game = Game(root)
-game.mainloop()
+    root = tk.Tk()
+    root.title('Hello, Pong!')
+    game = Game(root)
+    game.mainloop()

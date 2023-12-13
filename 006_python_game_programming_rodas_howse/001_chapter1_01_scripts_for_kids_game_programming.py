@@ -25,6 +25,10 @@ pip freeze > requirements.txt
 # to install
 pip install -r requirements.txt
 
+conda install -c anaconda tk
+
+
+
 # [path]
 cd /Users/brunoflaven/Documents/03_git/learning_python_for_all/006_python_game_programming_rodas_howse/
 
