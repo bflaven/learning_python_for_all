@@ -1,22 +1,51 @@
+! # Python Code For Family Lessons
+
+
+--- Un petit nombre de questions que l’on se pose, quand on est enfant ou adolescent, et que nos parents ou nos professeurs nous conseillent d’apprendre la programmation en Python .
+
+"Il n'y a pas de question idiote, seulement une réponse idiote."
+Albert Einstein
+
+"Si tu ne sais pas, pose la question". Ma grand-mère, Alice
+
+! ## To be IA or not be IA ?
+Ce jupyter notebook a été écrit en grande partie par l’IA car il est aussi une initiation à l’art du prompt.
+Je donne deux réponses, l'une formulé par une AI (ChatGPT et Mistral AI) pour me donner une réponse détaillée et je donne ma réponse succincte pour avoir l’essentiel.
+
+
+[ChatGPT](https://chat.openai.com/)
+[Mistral AI](https://ollama.ai/library/mistral:text)
+ 
 
 
 
-
-- Comment va-t-on dans la language de programmation Python sur un Mac ?
-+ On ouvre le terminal (la console) et on tape python.
-
-
-- Comment fait-on une adition, une soustraction, une multiplication et une division ?
-
-+ une adition, c'est le signe + ;Par exemple 12+3
-+ une soustraction, c'est le signe - ;Par exemple 12-3
-+ une multiplication, c'est le signe * ;Par exemple 12*3
-+ une division, c'est le signe / ;Par exemple 12/3
++ Comment va-t-on dans le language de programmation Python sur un Mac ?
+On ouvre le terminal (la console) et on tape python.
 
 
-- Comment fait-on pour executer un script du nom de arthur-script-1.py ?
 
-+ Voilà les 3 étapes pour lancer un script
++ En Python, comment fait-on une adition, une soustraction, une multiplication et une division ?
+
+- Une adition, c'est le signe +
+
+Par exemple 12+3
+
+- Une soustraction, c'est le signe -
+
+Par exemple 12-3
+
+- Une multiplication, c'est le signe *
+
+Par exemple 12*3
+
+- Une division, c'est le signe /
+
+Par exemple 12/3
+
+
++ Comment fait-on pour exécuter un script du nom de arthur-script-1.py ?
+
+- Voilà les 3 étapes pour lancer un script
 --- 1. On crée un fichier du nom de arthur-script-1.py
 --- 2. On se rend dans le répertoire contenant le fichier arthur-script-1.py dans la console
 --- 3. On lance dans la console le fichier arthur-script-1.py
@@ -30,21 +59,31 @@ python arthur-script-2.py
 python arthur-script-3.py
 
 
-- Quelques commandes à taper dans la console
-+ 1. Pour lister les fichiers dans la console je fais "ls -l"
-+ 2. Pour savoir dans quel répertoire je suis je fais "pwd"
-+ 3. Pour nettoyer la console, je fais "clear"
-+ 4. Pour déplacer dans un repertoire précis, je fais "cd /Users/annelandois1/Documents/_code_for_family/"
++ Quelles sont les commandes principales à connaître quand on est dans la console ?
 
---- pwd :: abr de "print working directory"
---- cd :: abr de "change directory"
---- ls :: abr de "list"
+**Quelques commandes à taper dans la console**
+- 1. Pour lister les fichiers dans la console je fais `ls -l`
+- 2. Pour savoir dans quel répertoire je suis je fais `pwd`
+- 3. Pour nettoyer la console, je fais `clear`
+- 4. Pour déplacer dans un repertoire précis, je fais `cd /Users/brunoflaven/Documents/_code_for_family/`
+
+**Quelques défintions sur les abréviations**
+- pwd est une abréviation de `print working directory`
+- cd est une abréviation de `change directory`
+- ls est une abréviation de `list`
 
 
 
 
 
+! How to structure the notebook between markdown and code ?
 
+
+### HUMAIN
+
+### ChatGPT 3.5
+
+### Mistral AI
 
 
 
