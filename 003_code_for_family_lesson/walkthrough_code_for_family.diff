@@ -73,6 +73,23 @@ python arthur-script-3.py
 - ls est une abréviation de `list`
 
 
++ En Python, comment fait-on pour utilser le if, else, default, donne-moi un exemple en expliquant chaque ligne ?
+
+En France, la notation se fait généralement sur 20. Imaginons que tu obtiens un 16 sur 20 par exemple à ton dernier devoir de géographie. La commentaire du professeur sera sans doute "Très bien."
+
+```python
+note = 16
+
+   if note >= 18:
+       print("Excellent!")
+   elif 16 <= note < 18:
+       print("Très bien.")
+   elif 14 <= note < 16:
+       print("Bien.")
+   else:
+       print("À améliorer.")
+```
+
 
 
 

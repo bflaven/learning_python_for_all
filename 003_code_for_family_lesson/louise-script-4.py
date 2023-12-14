@@ -111,3 +111,16 @@ little_kid = {'name': 'arthur', 'age': 11}
 little_kid = {'name': 'louise', 'age': 13}
 
 print(little_kid['name'])
+
+
+# if else from MISTRAL AI
+print('\n--- EXEMPLE_5 if else from MISTRAL AI')
+
+age = int(input("Entrez votre age : "))
+if age > 17:
+    print("Vous pouvez voter.")
+else:
+    print("Vous n'avez pas le droit de voter")
+default_printed = True
+if default_printed:
+    print("Ceci est affiché par default, et ne peut être supprimée que si l'on fait un else if")
