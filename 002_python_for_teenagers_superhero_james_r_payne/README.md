@@ -4,6 +4,11 @@
 
 
 
+
+**A kind of Reader's Digest or a sort of "best of" book so inevitably sometimes a strong cognitive bias because only a few elements interest me!**
+
+
+**Intro**
 What I like in Python is that without being a true developer more self-taught one, you can understand in much more easy way how to program. I decide to go for it.
 
 The force indentation, even it is annoying at the very beginning, it lets the code logic appears like trouts in mountain river's crystal waters then it is much more easier to fish mistakes than in a muddy code soup.

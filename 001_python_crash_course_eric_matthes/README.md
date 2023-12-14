@@ -3,9 +3,12 @@
 
 **A set of resources from Books, Exercises, Notebooks to discover and learn Python. It exists both in French and in English.**
 
+
+**A kind of Reader's Digest or a sort of "best of" book so inevitably sometimes a strong cognitive bias because only a few elements interest me!**
+
+
+**Intro**
 For the purpose of this book, we will stick to one of the most versatile, yet easy-to-learn, languages, Python.
-
-
 
 ## 1. How-to launch the python scripts in a mac console
 
@@ -805,11 +808,11 @@ Matériellement dans notre programme python on a pas de dé reél ou physique, o
 ```python
 # variable (integer) : 1, 2, 3, 4, 5, 6
 CAS_1, dice = 1
-CAS_2, dice = 1
-CAS_3, dice = 1
-CAS_4, dice = 1
-CAS_5, dice = 1 
-CAS_6, dice = 1
+CAS_2, dice = 2
+CAS_3, dice = 3
+CAS_4, dice = 4
+CAS_5, dice = 5 
+CAS_6, dice = 6
 CAS_FAILED, dice is null 
 ```
 
@@ -822,49 +825,55 @@ On va avoir aussi besoin d'un opérateur de comparaison, le comparateur trés ui
 Maintenant, écrivons le tout en python.
 
 ```python
+# Logique et Programmation par le jeu
+print('\n--- Logique et Programmation par le jeu')
+
+# set the dice
+dice=3
+
 # CAS_1
 # Si le dé s'immobilise sur la face numéro 1.
 # Le lanceur du dé doit exécuter le gage numéro 1
 # - 1 - Chanter une chanson accapella
 
 if dice == 1: # CAS_1
-print("CAS_1")
-print("- 1 - Chanter une chanson accapella")
+  print("CAS_1")
+  print("- 1 - Chanter une chanson accapella")
 
 # CAS_2
 # Si le dé s'immobilise sur la face numéro 2.
 # Le lanceur du dé doit exécuter le gage numéro 1 à savoir
 # - 2 - Chanter une chanson avec de l'eau dans la bouche
 elif dice == 2: # CAS_2
-print("CAS_2")
-print("- 2 - Chanter une chanson avec de l'eau dans la bouche")
+  print("CAS_2")
+  print("- 2 - Chanter une chanson avec de l'eau dans la bouche")
 
 
 # CAS_3
 # Si le dé s'immobilise sur la face numéro 3. 
 # Le lanceur du dé doit exécuter le gage numéro 1 à savoir
 # - 3 - Raconter une blague
-elif dice == 2: # CAS_3
-print("CAS_3")
-print("- 3 - Raconter une blague")
+elif dice == 3: # CAS_3
+  print("CAS_3")
+  print("- 3 - Raconter une blague")
 
 
 # CAS_4
 # Si le dé (dice) s'immobilise sur la face numéro 4. 
 # Le lanceur du dé doit exécuter le gage numéro 1 à savoir
 # - 4 - Raconter une blague dans une autre langue
-elif dice == 2: # CAS_4
-print("CAS_4")
-print("- 4 - Raconter une blague dans une autre langue")
+elif dice == 4: # CAS_4
+  print("CAS_4")
+  print("- 4 - Raconter une blague dans une autre langue")
 
 
 # CAS_5
 # Si le dé s'immobilise sur la face numéro 5. 
 # Le lanceur du dé doit exécuter le gage numéro 1 à savoir
 # - 5 - Mettre un vêtement à l'envers
-elif dice == 2: # CAS_5
-print("CAS_5")
-print("- 5 - Mettre un vêtement à l'envers")
+elif dice == 5: # CAS_5
+  print("CAS_5")
+  print("- 5 - Mettre un vêtement à l'envers")
 
 
 # CAS_6 
@@ -872,8 +881,8 @@ print("- 5 - Mettre un vêtement à l'envers")
 # Le lanceur du dé doit exécuter le gage numéro 1 à savoir
 # - 6 - Imiter le cri d'un animal
 elif dice == 6: # CAS_6
-print("CAS_6")
-print("- 6 - Imiter le cri d'un animal")
+  print("CAS_6")
+  print("- 6 - Imiter le cri d'un animal")
 
 
 # CAS_FAILED
@@ -881,7 +890,7 @@ print("- 6 - Imiter le cri d'un animal")
 # Le lanceur ne fait rien et tous les joueurs cherchent le dé 
 # Le gage collectif est que tous les joueurs cherchent le dé pour reprendre le jeu.
 else: # CAS_FAILED
-print("dice is null")
+  print("dice is null")
 ```
 
 
