@@ -28,6 +28,6 @@ def generate_name(starts_with):
 print('What is your name?') # ask for their name
 myName = input()
 print('It is good to meet you, ' + myName)
-print('What is your seach? Tip: type a name with "m" like Mendel') # ask for their name
+print('What is your search? Tip: type a name with "m" like Mendel') # ask for their name
 mySearch = input()
 generate_name(mySearch)
