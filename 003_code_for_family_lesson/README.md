@@ -5,9 +5,11 @@
 
 
 
-- 001_notebook_python_code_for_family_lessons.ipynb
-- README.md
-walkthrough_code_for_family.diff
+- 001_notebook_python_code_for_family_lessons.ipynb: 
+- README.md: 
+- walkthrough_code_for_family.diff: 
+
+**The other files**
 
 ```bash
 # for arthur
