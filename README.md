@@ -12,24 +12,18 @@
 
 **What you will find in these directories....**
 
-- **000_jupyter_notebooks:** Some notebooks to allow children (from 7 years old) or teenagers, or even seniors, to learn about programming. These elements were collected in particular to keep trainees occupied during their discovery internships in a professional environment. The vocation is for it to be autonomous and for this to produce visible results. It is therefore a very result-oriented initiation, favoring immediacy and practice, very little theoretical.
+- **000_jupyter_notebooks:** Some notebooks to allow children (from 7 years old) or teenagers, or even seniors, to learn about programming. These elements were collected in particular to keep trainees occupied during their discovery internships in a professional environment. The vocation is for them to be autonomous and to produce visible results. It is therefore a very result-oriented initiation, favoring immediacy and practice, very little theoretical. Check 001_notebook_beginner_fr_learn_python.ipynb that is written with the help Mistral and ChatGPT.
 
-- **001_python_crash_course_eric_matthes:** Summary and extract from the book `Python Crash Course, A Hands-On, Project-Based Introduction to Programming` by by Eric Matthes**
+- **001_python_crash_course_eric_matthes:** Summary and extract from the book `Python Crash Course, A Hands-On, Project-Based Introduction to Programming` by by Eric Matthes
 
 
 - **002_python_for_teenagers_superhero_james_r_payne:** Summary and extract from the book `Python for Teenagers: Learn to Program like a Superhero!` by James R. Payne
 
-- **003_code_for_family_lesson:** My own modest stuff
+- **003_code_for_family_lesson:** My own modest stuff with some examples of Python Scripts.
 
-- **004_automate_boring_stuff_with_python_al_sweigart:** Summary and extract from the book `Automate the Boring Stuff with Python` by Al Sweigart
+- **004_automate_boring_stuff_with_python_al_sweigart:** Summary and extract from the book `Automate the Boring Stuff with Python` by Al Sweigart. Great book full of practical examples.
 
 - **005_python_by_example_150_challenges_nichola_lacey:** Summary and extract from the book `Python By Example: Learning To Program In 150 Challenges` by Nichola Lacey
-
-
-
-
-
-
 
 
 ## 1. LEARNING PYTHON WITH JUPYTER NOTEBOOK
