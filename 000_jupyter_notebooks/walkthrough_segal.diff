@@ -1,0 +1,89 @@
+! A. # Ressources
+
+- blog
+https://flaven.fr/
+
+- youtube videos
+https://www.youtube.com/channel/UCnUBoVx9Yai3wirPBvNpNQw
+
+
+- 1 -  all code
+https://github.com/bflaven
+
+- 2 - learning_python_for_all
+--- https://github.com/bflaven/learning_python_for_all
+A set of resources from Books, Exercises, Notebooks to discover and learn Python. It exists both in French and in English.
+
+
+- 3 - learning_python_for_all
+--- https://github.com/bflaven/new_powers_new_responsibilities_the_journalism_ai_report
+
+Un certain nombre de définition utiles à l’IA sont disponibles dans le doc GitHub - bflaven/new_powers_new_responsibilities_the_journalism_ai_report: Une synthèse d'un excellent document disponible en ligne, relativement récent (2019) extrait du "The JournalismAI Report", nommé "New powers, new responsibilities. A global survey of journalism and artificial intelligence", de Charlie Beckett, Professeur à la London School of Economics and Political Science. 
+
+
+
+! B. #  Addons for sublime and visual code
+--- Best plugins for Sublime Text
+Package control (https://packagecontrol.io/)
+SideBar Enhancements
+Sublime CodeIntel
+Emmet
+Bracket Highlighter
+Git
+Git Gutter
+Sublime Linter
+DocBlockr
+GoSublime
+Browser Refresh
+Auto Semi-Colon
+Advanced New File
+LaTeX Tools
+Quick File Creator
+SublimeREPL
+Color Highlighter
+JSLint
+SFTP
+Pretty JSON
+
+
+--- Best plugins for Visual Code
+- productivity_1
+Prettier
+Remote – SSH
+Live Share
+Better Comments
+CodeSnap
+Code Runner
+Path Intellisense
+vscode-icons
+Night Owl
+
+- productivity_2
+Live Server
+Auto Rename Tag
+SVG Preview
+HTML CSS Support
+IntelliSense for CSS class names in HTML
+CSS Peek
+GitLens
+
+- js
+ESLint
+Extraits de code JavaScript (ES6)
+Quokka.js
+npm Intellisense
+Import Cost
+
+- Python
+Python
+Pylance
+Jupyter
+Django
+Flask Snippets
+
+- development experience
+GitHub Copilot
+Tabnine AI Autocomplete Tabnine AI
+Markdown All in One
+Regex Previewer
+
