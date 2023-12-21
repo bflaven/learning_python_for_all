@@ -22,7 +22,53 @@ Un certain nombre de définition utiles à l’IA sont disponibles dans le doc G
 
 
 
-! B. #  Addons for sublime and visual code
+! B. #  Using LLM
+
+Installation LM studio. Only available for LM Studio for Mac (M1/M2/M3)
+
+- 1.  Tool LM Studio
+https://lmstudio.ai/
+
+- 2. ollama
+https://ollama.ai/
+
+# COMMANDS FOR OLLAMA
+
+# To run and chat with Llama 2
+ollama run llama2
+ollama run llama2-uncensored
+ollama run orca-mini
+
+
+# remove a model
+ollama rm llama2
+ollama rm orca-mini
+ollama rm mistral
+ollama rm falcon:7b
+ollama rm mistral:text
+ollama rm llama2:latest
+ollama rm orca-mini:latest
+
+# list the model
+ollama list
+
+# when you are in the model you can use
+>>> /?
+>>> /list
+>>> /set verbose
+
+# to get out from the model
+/exit
+
+
+
+
+--- for LLMs huggingface.co
+https://huggingface.co/
+
+
+
+! C. #  Addons for sublime and visual code
 --- Best plugins for Sublime Text
 Package control (https://packagecontrol.io/)
 SideBar Enhancements
@@ -87,3 +133,47 @@ Tabnine AI Autocomplete Tabnine AI
 Markdown All in One
 Regex Previewer
 
+
+! D. TOOLS & ENVIRONMENT
+
+- Tools to create and manage of virtual environments:
+
+--- ANACONDA
+https://www.anaconda.com/
+
+--- PYTHON-POETRY
+https://python-poetry.org/
+
+--- VENV
+https://docs.python.org/3/library/venv.html
+
+--- MANAGE ENVIRONMENT ANACONDA
+[env]
+# Conda Environment
+conda create --name langchain_ai python=3.9.13
+conda info --envs
+source activate langchain_ai
+conda deactivate
+
+# if needed to remove
+conda env remove -n [NAME_OF_THE_CONDA_ENVIRONMENT]
+conda env remove -n langchain_ai
+
+# update conda 
+conda update -n base -c defaults conda
+
+# to export requirements
+pip freeze > requirements.txt
+
+# to install
+pip install -r requirements.txt
+
+conda install -c conda-forge langchain
+
+
+# [path]
+cd /Users/brunoflaven/Documents/03_git/ia_usages/ia_using_other_llm/
+
+
+# launch the file
+python samwit_basic_chain.py
