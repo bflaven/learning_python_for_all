@@ -3,15 +3,19 @@
 
 
 """
-cd /Users/brunoflaven/Documents/03_git/learning_python_for_all/000_jupyter_notebooks/
+# command_1 dans la console
+cd /Users/macbookair/Documents/stage_fmm
 
+# command_2 dans la console
 python lenomquejeveux-2.py
-python3 lenomquejeveux-2.py
 
 Source: 20/12/23 TP_1
+
+
+
 
 """
 
 # segal_there.py
-print("Bonjour Ségal lenomquejeveux-2.py ")
+print("segal et louise")
 

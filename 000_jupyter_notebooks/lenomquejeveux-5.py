@@ -6,8 +6,7 @@
 
 cd /Users/macbookair/Documents/stage_fmm
 
-python lenomquejeveux-1.py
-python3 lenomquejeveux-1.py
+python lenomquejeveux-5.py
 
 Source: 20/12/23 TP_1
 
@@ -48,5 +47,7 @@ commmentaire
 # for course_soir in courses_soir:
 #     print(f"course SOIR : {course_soir}")
     
+print("Merry Christmas 2023")
+
 
 

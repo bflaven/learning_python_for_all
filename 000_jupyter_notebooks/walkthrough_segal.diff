@@ -1,3 +1,27 @@
+
+
+
+
+
+
+
+
+! WALKTHROUGH_SEGAL (walkthrough_segal.diff)
+
++ INTRO AU JEU
+
+https://docs.python.org/fr/3/library/turtle.html
+
+
++ 001_notebook_beginner_fr_learn_python.ipynb
+
+- command_1
+cd /Users/macbookair/Documents/stage_fmm/
+
+- command_2
+jupyter notebook
+
+
 ! A. # Ressources
 
 - blog
@@ -32,7 +56,423 @@ https://lmstudio.ai/
 - 2. ollama
 https://ollama.ai/
 
-# COMMANDS FOR OLLAMA
+Pour voir tous les models LLM (large language model) sur https://ollama.ai/library
+
+
+! PROMPTS
+
++ prompt_1
+- Qu'est-ce qu'un grand modèle de langage (LLM) ?
+--- LLM: Large Language Model
+Un modèle de langage étendu (LLM) est un type de programme d'intelligence artificielle (IA ) capable de reconnaître et de générer du texte, entre autres tâches. Les LLM sont formés sur d'énormes ensembles de données - d'où le nom "large." Les LLM reposent sur l'apprentissage automatique : en particulier, un type de réseau neuronal appelé modèle de transformateur.
++ prompt_2
+- What is a large language model (LLM)?
+
+A large language model (LLM) is a type of artificial intelligence (AI) model that is trained on a large corpus of text data 
+to generate language outputs that are coherent and natural-sounding. The goal of an LLM is to learn the patterns and 
+structures of language, such as grammar, syntax, and semantics, in order to generate text that is similar to human-written 
+text.
+
+LLMs are typically trained using deep learning techniques, such as recurrent neural networks (RNNs) or transformer models, 
+on large datasets of text. The training process involves feeding the model a large amount of text data, and adjusting the 
+model's parameters to minimize the error between its outputs and the original input text.
+
+LLMs have a wide range of applications, including:
+
+1. Language translation: LLMs can be trained on multiple languages to generate translations that are accurate and 
+natural-sounding.
+2. Text summarization: LLMs can be used to summarize long documents or articles, generating a shorter summary that captures 
+the main points.
+3. Chatbots: LLMs can be used to power chatbots that can engage in conversation with users, answering questions and 
+responding to queries.
+4. Content generation: LLMs can be used to generate content, such as articles, blog posts, or social media updates, that is 
+coherent and contextually appropriate.
+5. Language understanding: LLMs can be used to understand the meaning of text, allowing for applications such as sentiment 
+analysis, question-answering, and text classification.
+
+Some examples of large language models include:
+
+1. BERT (Bidirectional Encoder Representations from Transformers): A popular LLM developed by Google that has achieved 
+state-of-the-art results in a wide range of natural language processing tasks.
+2. RoBERTa (Robustly Optimized BERT Pretraining Approach): A variant of BERT that was specifically designed for text 
+classification tasks and has achieved high accuracy on a number of benchmark datasets.
+3. Longformer (Long-range dependence transformer): A LLM that is specifically designed to handle long-range dependencies in 
+text, making it well-suited for tasks such as machine translation and text summarization.
+4. ELECTRA (Efficient Lifelong End-to-End Text Recognition with Attention): A LLM that uses a combination of encoder and 
+decoder models to generate text that is coherent and contextually appropriate.
+
+Overall, large language models have the potential to revolutionize many areas of natural language processing, from language 
+translation to content generation, by enabling machines to understand and generate human-like language.
+
+
+
++ prompt_3
+Dis moi en plus sur la prénom breton Ségal ou Segal ?
+Tell me more about the Breton first name Ségal or Segal?
+
+
+- web
+--- Histoire du prénom Segal
+Très vénéré en Bretagne, saint Segal, Segar ou Sengar, est l'éponyme de plusieurs localités bretonnes.
+
+--- Etymologie du prénom Segal
+celtique : de sen, ancien et kar, ami.
+
+
+- llama2
+
+Ségal or Segal is a Breton first name that originated in Brittany, a region in northwest France. The name is derived from 
+the Breton word "segal," which means "happy" or "lucky." It is also related to the Old French word "segal," which means 
+"sailor" or "naval officer."
+
+In Brittany, Ségal is a relatively common first name, particularly in the western part of the region. According to data from
+the French National Institute for Statistics and Economic Studies (INSEE), in 2019, there were 345 people named Ségal or 
+Segal in the Finistère department of Brittany alone.
+
+The name Ségal has been popularized by several notable Breton figures throughout history. For example, Ségal de Jubault, a 
+17th-century Breton poet and writer, was born in the town of Quimper. Another notable figure with the name Ségal is the 
+Breton politician and writer, Henri Ségal, who was born in 1869 and died in 1941.
+
+In addition to its cultural significance in Brittany, the name Ségal has also been adopted by people around the world as a 
+unique and distinctive first name. According to data from the United States Social Security Administration, Segal is a 
+relatively uncommon first name in the United States, with only about 20-30 births per year since 2010.
+
++ prompt_4
+
+
+- Explique ce morceau de code ci-dessous : 
+'''
+# Print Statement
+print("Bonjour Ségal louise")
+'''
+
+
+--- réponse
+Certainly! Here's an explanation of the code you provided:
+
+The code is a Python print statement, which is used to display output on the screen. The statement is `print("Bonjour Ségal louise")`.
+
+Here's a breakdown of what's happening in the code:
+
+* `#`: This is a comment character. It indicates that the text after it should be ignored and is not part of the code. In this case, the 
+text `Bonjour Ségal louise` is being ignored because of the `#`.
+* `print`: This is the function or command that is used to display output on the screen. It takes a string argument (in this case, 
+"Bonjour Ségal louise") and prints it to the screen.
+* `("Bonjour Ségal louise")`: This is the string that is being printed using the `print` function. The parentheses are used to enclose 
+the string so that it can be passed as an argument to the `print` function.
+
+So, when the code is run, the output "Bonjour Ségal louise" will be displayed on the screen.
+
+
+Certainement! Voici une explication du code que vous avez fourni :
+
+Le code est une instruction d'impression Python, utilisée pour afficher la sortie à l'écran. La déclaration est `print("Bonjour Ségal Louise")`.
+
+Voici un aperçu de ce qui se passe dans le code :
+
+* `#` : Il s'agit d'un caractère de commentaire. Il indique que le texte qui le suit doit être ignoré et ne fait pas partie du code. Dans ce cas, le
+le texte `Bonjour Ségal louise` est ignoré à cause du `#`.
+* `print` : Il s'agit de la fonction ou de la commande utilisée pour afficher la sortie à l'écran. Il faut un argument de chaîne (dans ce cas,
+"Bonjour Ségal Louise") et l'imprime à l'écran.
+* `("Bonjour Ségal louise")` : C'est la chaîne qui est imprimée à l'aide de la fonction `print`. Les parenthèses sont utilisées pour encadrer
+la chaîne afin qu'elle puisse être passée comme argument à la fonction `print`.
+
+Ainsi, lorsque le code est exécuté, la sortie "Bonjour Ségal Louise" s'affichera à l'écran.
+
++ prompt_5
+
+- ecris moi un programme en python qui écris c'est noel 2023
+
+--- réponse
+Of course! Here is a simple Python program that prints "Merry Christmas 2023":
+```
+print("Merry Christmas 2023")
+```
+Let me explain what's happening in the code:
+
+* `print`: This is the function or command that is used to display output on the screen. It takes a string argument (in this case, "Merry
+Christmas 2023") and prints it to the screen.
+* `("Merry Christmas 2023")`: This is the string that is being printed using the `print` function. The parentheses are used to enclose 
+the string so that it can be passed as an argument to the `print` function.
+
+So, when the code is run, the output "Merry Christmas 2023" will be displayed on the screen.
+
+I hope this helps! Let me know if you have any questions or need further assistance.
+
+
++ prompt_6
+
+- comment on dit bonjour en espagnol ?
+
+--- réponse
+
+In Spanish, "good morning" can be expressed in several ways depending on the time of day and the level of formality you want
+to convey. Here are some common ways to say "good morning" in Spanish:
+
+* ¡Buenos días! (formal)
+* ¡Hola! (informal)
+* ¡Buena mañana! (very informal)
+* ¿Cómo estás? (a more general greeting, asking how someone is doing)
+
+So, for example, you could say:
+
+* ¡Buenos días! (good morning!)
+* ¡Hola! ¿Cómo estás? (hello! How are you?)
+* ¡Buena mañana! (good morning!)
+
+It's worth noting that the Spanish language has many ways to greet people in the morning, and the one you choose will depend
+on the context and the person you're speaking to.
+
++ prompt_7
+
+- comment on dit boujour dans une langue inconnue
+
+--- réponse
+
+To say "good morning" in a language you don't know, you can use a translation app or website to find the equivalent phrase 
+in that language. Here are some common ways to say "good morning" in different languages:
+
+* Arabic: صباح الخير (Sabah al-khayr)
+* Chinese: 早安 (Zǎo'ān)
+* French: Bonjour
+* German: Guten Morgen
+* Italian: Buon giorno
+* Japanese: おはようございます (Ohayō gozaimasu)
+* Korean: 안녕하세요 (Annyeonghaseyo)
+* Portuguese: Bom dia
+* Russian: Доброе утро (Dobroye utro)
+* Spanish: Buenas tardes (in some countries, this is the standard greeting for the afternoon)
+* Swedish: God morgon
+
+Keep in mind that language learning apps and websites may provide different translations depending on the context and 
+dialect. It's always a good idea to double-check the translation with a native speaker or language expert to ensure accuracy.
+
++ prompt_8
+
+
+- comment créer une liste sur python et donne moi un exemple avec des marques de belles voituresc
+
+--- réponse
+
+Of course! Here's an example of how you could create a list of luxury car brands in Python:
+```
+luxury_car_brands = ["BMW", "Mercedes-Benz", "Audi", "Lexus", "Jaguar"]
+```
+This will create a list called `luxury_car_brands` that contains the five brands you specified. You can add or remove brands
+from the list as needed by modifying the code accordingly.
+
+If you want to add more luxury car brands to the list, you could use a loop like this:
+```
+for brand in ["Tesla", "Porsche", "Rolls-Royce"]:
+    luxury_car_brands.append(brand)
+```
+This will append each of the brands in the `brand` list to the `luxury_car_brands` list.
+
+You can also use a dictionary to store the luxury car brands, like this:
+```
+luxury_car_brands = {
+    "BMW": True,
+    "Mercedes-Benz": True,
+    "Audi": True,
+    "Lexus": True,
+    "Jaguar": True,
+    "Tesla": True,
+    "Porsche": True,
+    "Rolls-Royce": True
+}
+```
+This will store each brand as a key in the dictionary, along with a `True` value to indicate that it is a luxury car brand. 
+You can then use the `in` operator to check if a given brand is a luxury car brand:
+```
+is_luxury_car("Tesla") # returns True
+```
+I hope this helps! Let me know if you have any questions.
+
+
++ prompt_9
+
+- donne moi une explication de ce code 
+
+... for pote in potes:
+...     print(f"Pote : {pote}")
+...     
+
+--- réponse
+
+Sure, I'd be happy to explain the code!
+
+The code you provided is a for loop that iterates over a list of items, called `potes`, and prints out each item in the 
+list. Here's a breakdown of the code:
+
+* `for pote in potes:` - This line starts a for loop that will iterate over the elements in the list `potes`. The loop will 
+run repeatedly until the end of the list is reached.
+* `print(f"Pote : {pote})` - Inside the loop, this line prints out the current element being iterated over using the `f` 
+string formatting syntax. The `{pote}` part is the argument that will be passed to the `print()` function.
+
+So, when you run the code, it will print out each element in the `potes` list one at a time, like this:
+```
+Pote : 1
+Pote : 2
+Pote : 3
+...
+```
+I hope this helps! Let me know if you have any questions.
+
+
+
++ prompt_10
+
+
+- donne moi une liste en python de 10 villes de bretagne
+
+--- réponse
+
+Of course! Here are 10 cities in Brittany, France:
+```
+cities = ["Rennes", "Nantes", "Quimper", "Brest", "Lorient", "Saint-Brieuc", "Guingamp", "Carhaix", "Pont-Aven"]
+```
+You can use this list to access the name of each city in Brittany using the `[]` notation:
+```
+city = cities[0]  # Rennes
+```
+I hope this helps! Let me know if you have any questions.
+
+
++ prompt_11
+
+- En python, donne-moi un exemple qui importe le package random et donne-moi un exemple qui imprime une valeur aléatoire d'une liste nommée voitures. La liste sera composée de 5 marque de voiture de luxe.
+ 
+--- réponse
+
+ Voici un exemple de code qui importe le package `random` et génère une valeur aléatoire d'une liste de marques de voiture de luxe :
+```
+import random
+
+# Crée une liste de 5 marques de voiture de luxe
+voitures = ["BMW", "Mercedes", "Lamborghini", "Ferrari", "Rolls-Royce"]
+
+# Sélectionne aléatoirement une marque de voiture de la liste
+marque_selectionnée = random.choice(voitures)
+
+print("La marque de voiture selectionnée est :", marque_selectionnée)
+```
+Dans cet exemple, nous importons le package `random` et créons une liste de 5 marques de voiture de luxe (`BMW`, `Mercedes`, `Lamborghini`, `Ferrari` et
+`Rolls-Royce`). Nous utilisons ensuite la méthode `choice()` du package `random` pour sélectionner aléatoirement une marque de voiture de la liste. La 
+valeur sélectionnée est affichée dans la console.
+
+Voici un exemple qui imprime une valeur aléatoire d'une liste nommée `voitures`, composée de 5 marques de voiture de luxe :
+```
+from random import choice
+
+# Crée une liste de 5 marques de voiture de luxe
+voitures = ["BMW", "Mercedes", "Lamborghini", "Ferrari", "Rolls-Royce"]
+
+# Sélectionne aléatoirement une marque de voiture de la liste
+marque_selectionnée = choice(voitures)
+
+print("La marque de voiture selectionnée est :", marque_selectionnée)
+```
+J'espère que cela vous aidera à comprendre comment utiliser le package `random` pour générer des valeurs aléatoires dans une liste. N'hésitez pas à me 
+poser d'autres questions si vous en avez besoin!
+
++ prompt_12
+- Dessine moi en python un arbre et exporte le moi en jpeg avec le nom suivant : arbre.jpeg
+
+--- réponse
+
+Voici un exemple de code qui dessine un arbre en Python et exporte le résultat en JPEG avec le 
+nom souhaité :
+```python
+import matplotlib.pyplot as plt
+
+# Définition de l'arbre
+root = [1, 2, 3, 4, 5]
+
+# Dessin de l'arbre
+fig = plt.gca()
+ax = fig.add_subplot(111)
+for i in root:
+    ax.text(i, i, f"{i}", ha="center")
+plt.axis("off")
+
+# Exportation en JPEG
+plt.savefig("arbre.jpeg", format="jpg")
+```
+Dans ce code, nous utilisons la bibliothèque Matplotlib pour dessiner l'arbre et exporter le
+résultat en JPEG. Nous définissons d'abord l'arbre à dessiner en utilisant une liste de nodules
+(en l'occurrence, un élément de type entier). Nous utilisons ensuite la méthode `add_subplot()` 
+pour ajouter un sous-grille aux données de l'arbre et définir les coordonnées des nodules. 
+Ensuite, nous utilisons la méthode `text()` pour afficher les noms des nodules à l'emplacement 
+approprié. Finalement, nous exportons le diagramme en JPEG thanks à la méthode `savefig()`.
+
+Notez que vous pouvez personnaliser le dessin de l'arbre en modifiant les paramètres de la
+méthode `text()`, tels que la couleur et la police utilisée pour afficher les noms des nodules.
+Vous pouvez également ajuster les paramètres de l'exportation, tels que la qualité de l'image ou
+le format d'output.
+
++ prompt_13
+
+Donne moi la définition et la fonction d'un environnement en python sous Anaconda.
+
+
+--- réponse
+Dans Python sous Anaconda, un environnement est définie comme une instance de la classe 
+`Environment`. Cette classe représente un contexte de développement qui contient les dépendances
+et les configurations nécessaires pour exécuter des programmes Python.
+
+Voici la définition d'un environnement en Python sous Anaconda :
+```python
+from anaconda import Environment
+
+# Créez un environnement appelé "myenv"
+myenv = Environment("myenv")
+
+# Ajoutez une dépendance à l'environnement
+myenv.add_package("numpy")
+
+# Ajoutez des configurations à l'environnement
+myenv.set_configs({"MY_VAR": "un valeur"})
+
+# Exécutez un programme dans l'environnement
+myenv.run("print(MY_VAR)")
+```
+Dans cet exemple, nous créons un environnement appelé "myenv" à l'aide de la méthode 
+`Environment()` de la classe `anaconda.Environment`. Nous ajoutons ensuite une dépendance à 
+l'environnement en utilisant la méthode `add_package()`. Enfin, nous ajoutons des configurations
+à l'environnement en utilisant la méthode `set_configs()`, puis nous exécutons un programme dans
+l'environnement en utilisant la méthode `run()`.
+
+La fonction `Environment()` prend plusieurs arguments pour définir les caractéristiques de 
+l'environnement. Parmi ces arguments, on retrouve :
+
+* `name`: le nom de l'environnement (par défaut, Anaconda crée un environnement appelé "base")
+* `python_executable`: le chemin de l'exécutable Python à utiliser pour exécuter des programmes 
+dans l'environnement (par défaut, c'est la version installée de Python qui est utilisée)
+* `package_manager`: la classe utilisée pour gérer les dépendances (par défaut, c'est la classe 
+`anaconda.package_manager.AnacondaPackageManager`)
+* `python_version`: la version de Python à utiliser pour exécuter des programmes dans 
+l'environnement (par défaut, c'est la version installée de Python)
+* `user_home`: le répertoire de travaillage par défaut pour l'environnement (par défaut, c'est 
+le répertoire de travail actuel du utilisateur)
+* `python_path`: le chemin d'accès à Python dans l'environnement (par défaut, c'est le chemin 
+d'accès à Python installé sur le système)
+
+Notez que vous pouvez personnaliser les caractéristiques de l'environnement en utilisant ces 
+arguments pour spécifier des valeurs différentes. Par exemple, vous pouvez utiliser la méthode 
+`set_configs()` pour définir des configurations supplémentaires pour l'environnement, ou 
+utiliser la méthode `add_package()` pour ajouter des packages à l'environnement.
+
+
+
+
++ other prompts
+Tell me 5 facts about Roman history?
+Tell me 3 facts about Ludwig Wittgenstein?
+Give me a short geographical description with a maximum 10 lines of the country Argentina?
+
+
+
++ COMMANDS FOR OLLAMA
 
 # To run and chat with Llama 2
 ollama run llama2
@@ -177,3 +617,16 @@ cd /Users/brunoflaven/Documents/03_git/ia_usages/ia_using_other_llm/
 
 # launch the file
 python samwit_basic_chain.py
+
+
+! # OTHER COMMAND DANS LA CONSOLE
+`top` :: pour connaitre la consomation de mon ordio
+`jupyter notebook` :: pour lancer un notebook du type 001_notebook_beginner_fr_learn_python.ipynb
+
+
+
+
+
+
+
+
