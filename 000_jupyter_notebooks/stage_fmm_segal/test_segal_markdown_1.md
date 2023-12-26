@@ -20,11 +20,13 @@
 
 **Alternativement, pour H1 et H2, un style souligné :**
 
-Alt-H1
+mon-titre-H1-souligné-deux-fois
 ======
 
-Alt-H2
+mon-titre-H1-souligné-une-fois
 ------
+
+**Lancer un script python dans la console**
 
 ```bash
 cd /Users/macbookair/Documents/stage_fmm/
