@@ -133,7 +133,7 @@ greet("John")
 
 ```
 
-**Prompt: Prompt: Give me a basic php function**
+**Prompt: Give me a basic php function**
 ```javascript
 
 // Comments are made identically in PHP or in  JavaScript
