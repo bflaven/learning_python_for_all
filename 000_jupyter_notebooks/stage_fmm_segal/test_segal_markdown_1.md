@@ -1,5 +1,6 @@
 # test_segal_markdown_1
 
+**Un ensemble d'exemple pour écrire en markdown dans un readme.**
 
 
 ### Mise en page
