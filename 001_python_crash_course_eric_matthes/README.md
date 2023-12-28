@@ -93,16 +93,16 @@ Thus, all the objects around you can be described using language and therefore u
 
 **French Version**
 
-Une "Class", c’est essayer de comprendre la programmation orienté objet. Ecrire une "Class", dans sa plus simple définition, c’est entamé un processus intellectuel qui n'a qu'un but abstraire un objet. 
+Une "Class", c'est essayer de comprendre la programmation orienté objet. Ecrire une "Class", dans sa plus simple définition, c'est entamé un processus intellectuel qui n'a qu'un but abstraire un objet. 
 
-Le mot "Class" est écrit volontairement en anglais et entre guillemets pour bien signifier que l’on parle d’une "Class" en programmation et non une "Classe" à l’école par exemple.
-
-
-Par exemple prenons un arbre. Comment peut-on décrire un arbre via des caractéristiques objectives ? En réfléchissant bien, on peut dire que pour décrire un arbre comme tous les arbres, on peut choisir les caractéristiques suivantes : Un arbre se décrit comme Objet à l’aide de plusieurs caractéristiques Tronc, Racines, Branches, Houppier, Rameaux, Fût.
+Le mot "Class" est écrit volontairement en anglais et entre guillemets pour bien signifier que l'on parle d'une "Class" en programmation et non une "Classe" à l'école par exemple.
 
 
+Par exemple prenons un arbre. Comment peut-on décrire un arbre via des caractéristiques objectives ? En réfléchissant bien, on peut dire que pour décrire un arbre comme tous les arbres, on peut choisir les caractéristiques suivantes : Un arbre se décrit comme Objet à l'aide de plusieurs caractéristiques Tronc, Racines, Branches, Houppier, Rameaux, Fût.
 
-Ainsi, tous les objets qui t’entourent peuvent décrit à l’aide du langage donc à l’aide d’abstraction. Tu peux t’amuser à décrire une voiture, une personne, un ours, une huître, un crabe, un stade, un ordinateur, une ville... Bref, c’est la grande force de l’esprit humain. Pour info, c’est un sujet qui ne concerne pas seulement l’informatique mais dépasse très largement ce cadre. On retrouves ce questionnement en mathématiques bien sûr mais plus encore en philosophie (Wittgenstein, Schopenhauer).
+
+
+Ainsi, tous les objets qui t'entourent peuvent décrit à l'aide du langage donc à l'aide d'abstraction. Tu peux t'amuser à décrire une voiture, une personne, un ours, une huître, un crabe, un stade, un ordinateur, une ville... Bref, c'est la grande force de l'esprit humain. Pour info, c'est un sujet qui ne concerne pas seulement l'informatique mais dépasse très largement ce cadre. On retrouves ce questionnement en mathématiques bien sûr mais plus encore en philosophie (Wittgenstein, Schopenhauer).
 
 
 **Words for a tree to create an object for a Pyhton Class**
@@ -141,14 +141,14 @@ I try to find some words to describe a tree. here is the explanations in French 
 **French Version**
 
 ```bash
-Les conifères sont des plantes souvent arborescentes, constituées d’une tige unique (le tronc) fixée au sol par les racines, qui porte des branches formant le houppier.
+Les conifères sont des plantes souvent arborescentes, constituées d'une tige unique (le tronc) fixée au sol par les racines, qui porte des branches formant le houppier.
 
 
-Les branches (ou ramifications principales) se divisent à leur tour en rameaux. Généralement, le tronc des arbres adultes (plus de 7 m de haut) n’est chargé de branches et de feuilles qu’à partir d’une hauteur de plusieurs mètres.
+Les branches (ou ramifications principales) se divisent à leur tour en rameaux. Généralement, le tronc des arbres adultes (plus de 7 m de haut) n'est chargé de branches et de feuilles qu'à partir d'une hauteur de plusieurs mètres.
 
 La partie dénudée est appelée le fût.
 
-Les arbustes sont des arbres de plus petites dimensions (moins de 7 m), avec un tronc bien différencié, alors que les arbrisseaux (moins de 4 m) sont le plus souvent ramifiés dès la base. Cependant, la taille n’est pas le critère unique qui permet de séparer ces trois catégories de plantes ligneuses.
+Les arbustes sont des arbres de plus petites dimensions (moins de 7 m), avec un tronc bien différencié, alors que les arbrisseaux (moins de 4 m) sont le plus souvent ramifiés dès la base. Cependant, la taille n'est pas le critère unique qui permet de séparer ces trois catégories de plantes ligneuses.
 
 Tronc
 Racines
@@ -188,7 +188,7 @@ Stem
 
 ```bash
 # Other
-In the 1990s, a forest ecologist created a mathematical formula for estimating a sequoia’s age based on the volume of its bole, or the trunk below the crown.
+In the 1990s, a forest ecologist created a mathematical formula for estimating a sequoia's age based on the volume of its bole, or the trunk below the crown.
 
 # https://www.smithsonianmag.com/science-nature/the-science-behind-the-oldest-trees-on-earth-180981372/
 
@@ -299,9 +299,9 @@ python 001_python_for_family.py
 
 - Programming is more than memorizing syntax and a list of function names. As when learning a foreign language, the more practice you put into it, the more you will get out of it.
 
-- It teaches basic programming concepts using the Python programming language, which is one of the best languages for beginners. It has a gentle learning curve that novices of all ages can master, yet it’s also a powerful language used by professional software developers. 
+- It teaches basic programming concepts using the Python programming language, which is one of the best languages for beginners. It has a gentle learning curve that novices of all ages can master, yet it's also a powerful language used by professional software developers. 
 
-- Python runs on Windows, macOS, Linux, and even the Raspberry Pi, and it’s free to download and use.
+- Python runs on Windows, macOS, Linux, and even the Raspberry Pi, and it's free to download and use.
 
 
 ## 5. Enjoy takeaways any time or things to remember
@@ -504,9 +504,9 @@ Lancer mon premier script dans le terminal. On dit que l'on execute un script.
 ```bash
 # extrait du répertoire de Arthur et Louise
 arthur-script-1.py (script python)
-arthur-my-wishlist-for-chrismas-1.doc (word)
-louise-birthdays-party-friends-346.doc (word)
-louise-best-quotes-citations.xls (word)
+arthur-my-wishlist-for-chrismas-1.doc (doc word)
+louise-birthdays-party-friends-346.doc (doc word)
+louise-best-quotes-citations.xls (doc. excel)
 
 ```
 
@@ -668,7 +668,7 @@ print(message)
 
 ### CHAP_03 Monter d'un cran
 
-Maintenant, on va monter d'un cran : de un mot, on passe à plusieurs mots, de 1 chiffre on passe à plusieurs chiffres... En clair, on va découvrir l’extraordinaire puissance et la rapidité d’exécution de Python lorsque vous manipulez en même temps tout un ensemble d'éléments.
+Maintenant, on va monter d'un cran : de un mot, on passe à plusieurs mots, de 1 chiffre on passe à plusieurs chiffres... En clair, on va découvrir l'extraordinaire puissance et la rapidité d'exécution de Python lorsque vous manipulez en même temps tout un ensemble d'éléments.
 
 Conceptuellement, c'est un point essentiel à comprendre. Je m'explique. C'est je crois le plus sûr moyen de stimuler votre curiosité et de préserver votre envie d'apprendre de la programmation. En effet, aussi malin que vous soyez, l'ordinateur sera toujours plus rapide et plus efficace dans le traitement simultané et instantané de centaines et de centaines d'éléments. Là où vous avez tous les chances de devenir fou, l'ordinateur ne bronchera pas.
 
@@ -906,7 +906,7 @@ Les conditions doivent nécessairement introduire de nouveaux opérateurs, dits 
 - `Différent de` ::  `!=` 
 
 
-Un jeu équivaut à créer des structures conditionnelles (règles) qui font structurer les actions de chaque joueur. Eh bien la programmation c'est pareil ! Les structures de contrôle conditionnelles (ou plus simplement conditions) vont nous permettre d’exécuter différents blocs de code selon qu’une condition spécifique soit vérifiée ou pas. (`if`, `elif` et `else`) 
+Un jeu équivaut à créer des structures conditionnelles (règles) qui font structurer les actions de chaque joueur. Eh bien la programmation c'est pareil ! Les structures de contrôle conditionnelles (ou plus simplement conditions) vont nous permettre d'exécuter différents blocs de code selon qu'une condition spécifique soit vérifiée ou pas. (`if`, `elif` et `else`) 
 
 
 
@@ -995,7 +995,7 @@ Be aware that the deleted key-value pair is removed permanently.
 
 **(a) Looping Through a Dictionary**
 
-A single Python dictionary can contain just a few key-value pairs or millions of pairs. Because a dictionary can contain large amounts of data, Python lets you loop through a dictionary. Dictionaries can be used to store information in a variety of ways; therefore, several different ways exist to loop through them. You can loop through all of a dictionary’s key-value pairs, through its keys, or through its values.
+A single Python dictionary can contain just a few key-value pairs or millions of pairs. Because a dictionary can contain large amounts of data, Python lets you loop through a dictionary. Dictionaries can be used to store information in a variety of ways; therefore, several different ways exist to loop through them. You can loop through all of a dictionary's key-value pairs, through its keys, or through its values.
 
 
 **(b) Nesting**
@@ -1034,7 +1034,7 @@ for name, languages in favorite_languages.items():
 # See 007_python_for_family.py
 ```
 
-Most programs are written to solve an end user’s problem. So, the program will need to ask the user to enter, or input, whatever that help to solve the problem. With the ability to work with user input and the ability to control how long your programs run, you’ll be able to write fully interactive programs.
+Most programs are written to solve an end user's problem. So, the program will need to ask the user to enter, or input, whatever that help to solve the problem. With the ability to work with user input and the ability to control how long your programs run, you'll be able to write fully interactive programs.
 
 **How the `input()` Function Works**
 - Writing Clear Prompts
@@ -1129,7 +1129,7 @@ e.g `greet_user(username)`, `greet_user("Arthur")`, `greet_user("Louise")`
 
 **(c) Passing Arguments**
 
-Because a function definition can have multiple parameters, a function call may need multiple arguments. You can pass arguments to your functions in a number of ways. You can use positional arguments, which need to be in the same order the parameters were written; keyword arguments, where each argument consists of a variable name and a value; and lists and dictionaries of values. Let’s look at each of these in turn.
+Because a function definition can have multiple parameters, a function call may need multiple arguments. You can pass arguments to your functions in a number of ways. You can use positional arguments, which need to be in the same order the parameters were written; keyword arguments, where each argument consists of a variable name and a value; and lists and dictionaries of values. Let's look at each of these in turn.
 
 - Positional Arguments
 - Multiple Function Calls
@@ -1148,7 +1148,7 @@ Because a function definition can have multiple parameters, a function call may 
 
 **(d) Return Values**
 
-A function doesn’t always have to display its output directly. Instead, it can process some data and then return a value or set of values. The value the function returns is called a return value. The return statement takes a value from inside a function and sends it back to the line that called the function. Return values allow you to move much of your program’s grunt work into functions, which can simplify the body of your program.
+A function doesn't always have to display its output directly. Instead, it can process some data and then return a value or set of values. The value the function returns is called a return value. The return statement takes a value from inside a function and sends it back to the line that called the function. Return values allow you to move much of your program's grunt work into functions, which can simplify the body of your program.
 
 **(e) Passing an Arbitrary Number of Arguments**
 
@@ -1266,8 +1266,9 @@ from pizza import *
 
 (iv) All import statements should be written at the beginning of a file. The only exception is if you use comments at the beginning of your file to describe the overall program.
 
-### chap_06 Comprendre en Classe
+### chap_09 Comprendre en Classe ou Vaincre la peur de l'abstraction.
 
+*Une analyse personnelle sur l'apprentissage ratée de l’abstraction, à l’école notamment en mathématiques ou en philosophie par exemple. Échec qui dissuade la plupart des gens sur leurs capacités à réfléchir et les convint faussement de leur incapacité à réfléchir en terme abstrait !*
 
 
 ```python
@@ -1275,70 +1276,100 @@ from pizza import *
 ```
 
 
-C'est un point essentiel dans la compréhension de la programmation mais comme souvent tout cela est souvent mal expliqué ? Pourquoi ? Je ne vois qu'une raison à cela : c'est abstrait.
+**C'est un point essentiel dans la compréhension de la programmation mais comme souvent tout cela est souvent mal expliqué ? Pourquoi ? Je ne vois qu'une raison à cela : c'est abstrait.**
 
-Sans doute que la plupart d'entre nous, lorsque l'on pense abstrait on pense à l’Art abstrait.
+A l'évocation de l'adjectif abstrait ou abstraction, pour chacun de nous, cela évoque  des pensées ou des images mentales différentes. Moi, par exemple je pense à l'art abstrait ou aux concepts abstraits de la philosophie la liberté, l'individu, la morale, la bien....etc. On est bien loin de la programmation.
 
-En gros, on ne comprend rien, aucun de nos sens ne nous permet d’avoir l’intuition du résultat ou de l’idée qui se cache derrière.
-L’abstraction ou le concept est une chambre noire, un angle mort duquel on ne voit rien, plutôt inquiétant d’ailleurs. Eh bien c'est normal, pas facile de lever le voile sur l’idée qui se cache derrière, surtout lorsque on est enfant où l’essentiel des apprentissages se fait par le jeu, l’expérience, la tentative. Or dans mes souvenirs, à l’école, l’erreur était punie, enfant, j’en arrivai à ne plus tenter quoi que ce soit.
-La peur de l’échec et la difficulté inhérente à la compréhension d’un tel concept fait que tout un coup, on ne distingue plus rien, on ne comprend plus rien et on décroche et le retard ne sera sans doute jamais rattraper !
-Par exemple, les notations de chiffres en mathématiques est la première abstraction connue que l’on vous enseigne à l'école.
+Selon moi, ce que cela signifie, c'est que ma sensibilité ou mon imagination ne me permet pas de comprendre intuitivement ce qui se signifie l'abstraction ou bien cela m'a été mal expliqué. Or, en utilisant des mots simples et en se référant à l'usage, l'abstraction on s'en sert tous les jours dans le langage, dans le calcul mental au supermarché ou à la boulangerie par exemple.
+
+
+Même si de prime abord, on ne comprend rien à l'abstraction car aucun de nos sens ne nous permet d'avoir l'intuition du résultat ou de l'idée qui se cache derrière.
+Et même si on a tendance à voir l'abstraction ou le concept comme une chambre noire, un angle mort duquel on ne voit rien. Ce qui plutôt inquiétant d'ailleurs.
+
+Eh bien c'est normal, pas facile de lever le voile sur l'idée qui se cache derrière, surtout lorsque on est enfant où l'essentiel des apprentissages se fait par le jeu, l'expérience, la tentative. Or dans mes souvenirs, à l'école, l'erreur était punie, enfant, j'en arrivai à ne plus tenter quoi que ce soit.
+
+La peur de l'échec et la difficulté inhérente à la compréhension d'un tel concept fait que tout un coup, on ne distingue plus rien, on ne comprend plus rien et on décroche et le retard ne sera sans doute jamais rattraper !
+
+Par exemple, les notations de chiffres en mathématiques est la première abstraction connue que l'on vous enseigne à l'école.
 
 
 Jusqu'à présent, on a pratiqué et pratiqué encore en affichant autant que possible un résultat tangible en cherchant toujours rattacher la programmation à une expérience sensible ex: vous voyez le resultat de la fonftion que vous venez d'ecrire, vous interagissez avec votre programme...etc
 
 
-Une classe est une abstraction, c'est à dire que vous allez tenter de décrire un objet ou un être vivant avec des caractéristiques applicables à tous les objets ou tous les êtres vivants du même type.
+**Une classe est une abstraction, c'est à dire que vous allez tenter de décrire un objet ou un être vivant avec des caractéristiques applicables à tous les objets ou tous les êtres vivants du même type.**
 
-On a tous vu dans les séries policières, la police faire des portrait robots des suspects à l’aide des témoignages. Pour se faire la police utilise un assortiment de caractéristiques : Les cheveux, les yeux, le menton, le nez, la bouche, les oreilles, le menton.
+On a tous vu dans les séries policières, la police faire des portraits-robots de suspects à l'aide de témoignages. Pour se faire, la police utilise un assortiment de caractéristiques ou "abstractions" qui permettent de décrire un visage : les cheveux, les yeux, le menton, le nez, la bouche, les oreilles, le menton.
 
+
+Ainsi, avec cette liste de caractéristiques ou d'abstraction, on peut décrire tous les visages possibles. C'est ce principe qui prévaut dans la conception d'une Class en programmation.
 
 
 ```bash
-# Class Face
+# Class Face in English
 Hairs
 Eyes
 Nose
 Mouth
 Ears
 Chin
+
+# Class Face in French
+Cheveux
+Yeux
+Nez
+Bouche
+Oreilles
+Menton
+
+
 ```
 
-
-<!-- **About forensic aka mugshot**
-Keywords: photofit, photorobot, portrait-robot, Facial composite
+<span style="color:orange;"> 🤯 HEAD-UP_6: About forensic aka mugshot, good introduction to Class Programming</span>
 
 **What is a police sketch called?**
 
 Police sketch artists, also known as forensic or composite artists, interview victims and witnesses to create images of suspects. Their sketches may be used by police or released to the public to help apprehend criminals. ... These sketch artists often work as freelancers for several police departments.
 
 
-Facial sketches are widely used by law enforcement agencies to assist in the identification and apprehension of suspects involved in criminal activities. Sketches used in forensic investigations are either drawn by forensic artists (forensic sketches) or created with computer software (composite sketches) following the verbal description provided by an eyewitness or the victim. These sketches are posted in public places and in media in hopes that some viewers will provide tips about the identity of the suspect. This method of identifying suspects is slow and tedious and may not lead to apprehension of the suspect. Hence, there is a need for a method that can automatically and quickly match facial sketches to large police mugshot databases. We address the problem of automatic facial sketch to mugshot matching and, for the first time, compare the effectiveness of forensic sketches and composite sketches. The contributions of this paper include: (i) a database containing mugshots and corresponding forensic and composite sketches that will be made available to interested researchers; (ii) a comparison of holistic facial representations versus component based representations for sketch to mugshot matching; and (iii) an analysis of the effect of filtering a mugshot gallery using three sources of demographic information (age, gender and race/ethnicity). Our experimental results show that composite sketches are matched with higher accuracy than forensic sketches to the corresponding mugshots. Both of the face representations studied here yield higher sketch to photo matching accuracy compared to a commercial face matcher. -->
+Facial sketches are widely used by law enforcement agencies to assist in the identification and apprehension of suspects involved in criminal activities. 
 
 
+Sketches used in forensic investigations are either drawn by forensic artists (forensic sketches) or created with computer software (composite sketches) following the verbal description provided by an eyewitness or the victim. 
+
+These sketches are posted in public places and in media in hopes that some viewers will provide tips about the identity of the suspect. This method of identifying suspects is slow and tedious and may not lead to apprehension of the suspect. Hence, there is a need for a method that can automatically and quickly match facial sketches to large police mugshot databases. We address the problem of automatic facial sketch to mugshot matching and, for the first time, compare the effectiveness of forensic sketches and composite sketches. The contributions of this paper include:
+
+- (i) a database containing mugshots and corresponding forensic and composite sketches that will be made available to interested researchers; 
+- (ii) a comparison of holistic facial representations versus component based representations for sketch to mugshot matching; and 
+- (iii) an analysis of the effect of filtering a mugshot gallery using three sources of demographic information (age, gender and race/ethnicity). Our experimental results show that composite sketches are matched with higher accuracy than forensic sketches to the corresponding mugshots. Both of the face representations studied here yield higher sketch to photo matching accuracy compared to a commercial face matcher.
+
+**Keywords:** photofit, photorobot, portrait-robot, Facial composite
 
 
-### CHAP_08 Doing Classes in Python
- 
-Object-oriented programming is one of the most effective approaches to writing software. In object-oriented programming you write classes that represent real-world things and situations, and you create objects based on these classes. When you write a class, you define the general behavior that a whole category of objects can have. When you create individual objects from the class, each object is automatically equipped with the general behavior; you can then give each object whatever unique traits you desire. You’ll be amazed how well real-world situations can be modeled with object-oriented programming. Making an object from a class is called instantiation, and you work with instances of a class. 
+### CHAP_10 Doing Classes in Python
 
 
-In this chapter you’ll write classes and create instances of those classes. You’ll specify the kind of information that can be stored in instances, and you’ll define actions that can be taken with these instances. You’ll also write classes that extend the functionality of existing classes, so similar classes can share code efficiently. You’ll store your classes in modules and import classes written by other programmers into your own program files. 
+**Another chapter on Classes linked with Object-oriented programming (OOP).**
 
-Understanding object-oriented programming will help you see the world as a programmer does. It’ll help you really know your code, not just what’s happening line by line, but also the bigger concepts behind it. Knowing the logic behind classes will train you to think logically so you can write programs that effectively address almost any problem you encounter. Classes also make life easier for you and the other programmers you’ll work with as you take on increasingly complex challenges. When you and other programmers write code based on the same kind of logic, you’ll be able to understand each other’s work. Your programs will make sense to many collaborators, allowing everyone to accomplish more.
+
+Object-oriented programming is one of the most effective approaches to writing software. In object-oriented programming you write classes that represent real-world things and situations, and you create objects based on these classes. When you write a class, you define the general behavior that a whole category of objects can have. When you create individual objects from the class, each object is automatically equipped with the general behavior; you can then give each object whatever unique traits you desire. You'll be amazed how well real-world situations can be modeled with object-oriented programming. Making an object from a class is called instantiation, and you work with instances of a class. 
+
+
+In this chapter you'll write classes and create instances of those classes. You'll specify the kind of information that can be stored in instances, and you'll define actions that can be taken with these instances. You'll also write classes that extend the functionality of existing classes, so similar classes can share code efficiently. You'll store your classes in modules and import classes written by other programmers into your own program files. 
+
+Understanding object-oriented programming will help you see the world as a programmer does. It'll help you really know your code, not just what's happening line by line, but also the bigger concepts behind it. Knowing the logic behind classes will train you to think logically so you can write programs that effectively address almost any problem you encounter. Classes also make life easier for you and the other programmers you'll work with as you take on increasingly complex challenges. When you and other programmers write code based on the same kind of logic, you'll be able to understand each other's work. Your programs will make sense to many collaborators, allowing everyone to accomplish more.
 
 
 **(a) Creating and Using a Classes**
 
-By convention, capitalized names refer to classes in Python. There are no parentheses in the class definition because we’re creating this class from scratch. At v we write a docstring describing what this class does.
+By convention, capitalized names refer to classes in Python. There are no parentheses in the class definition because we're creating this class from scratch. At v we write a docstring describing what this class does.
 
 
 - The `__init__()` Method
-A function that’s part of a class is a method.
-This method has two leading underscores and two trailing underscores, a convention that helps prevent Python’s default method names from conflicting with your method names.
+A function that's part of a class is a method.
+This method has two leading underscores and two trailing underscores, a convention that helps prevent Python's default method names from conflicting with your method names.
 The self parameter is required in the method definition, and it must come first before the other parameters.
 
-Any variable prefixed with self is available to every method in the class, and we’ll also be able to access these variables through any instance created from the class.
+Any variable prefixed with self is available to every method in the class, and we'll also be able to access these variables through any instance created from the class.
 Variables that are accessible through instances like this are called attributes.
 
 **(b) Making an Instance from a Class**
@@ -1347,12 +1378,12 @@ We tell Python to create a dog whose name is 'Willie' and whose age is 6. Python
 my_dog = Dog('Willie', 6)
 
 - Accessing Attributes
-To access the attributes of an instance, you use dot notation. At v we access the value of my_dog’s attribute name by writing:
+To access the attributes of an instance, you use dot notation. At v we access the value of my_dog's attribute name by writing:
 my_dog.name
 
 
 - Calling Methods
-After we create an instance from the class Dog, we can use dot notation to call any method defined in Dog. Let’s make our dog sit and roll over:
+After we create an instance from the class Dog, we can use dot notation to call any method defined in Dog. Let's make our dog sit and roll over:
 
 ```python
 class Dog:
@@ -1404,7 +1435,7 @@ In this code, we are introduced to a new method, known as the constructor method
 
 **(c) Inheritance, Subclasses, and More!**
 
-One of the great things about classes is that you can use them to create other classes and, by way of a thing called inheritance, pass their attributes along to the newly recreated class, without having to use a bunch of lengthy code. It’s similar to how your parents pass their genetic code down to you, only in Python, we get to say what exactly a class inherits.
+One of the great things about classes is that you can use them to create other classes and, by way of a thing called inheritance, pass their attributes along to the newly recreated class, without having to use a bunch of lengthy code. It's similar to how your parents pass their genetic code down to you, only in Python, we get to say what exactly a class inherits.
 
 When we create a class based off of another class, we call this newly created class a subclass. By default, these subclasses inherit the methods and parameters of the class they are created from – which, by the way, are known as parent classes or superclasses.
 
