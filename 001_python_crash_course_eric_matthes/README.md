@@ -1348,7 +1348,7 @@ These sketches are posted in public places and in media in hopes that some viewe
 ### CHAP_10 Doing Classes in Python
 
 
-**Another chapter on Classes linked with Object-oriented programming (OOP).**
+**Another chapter on Classes linked with Object-Oriented Programming (OOP). This chapter detailed concretely and step by step how to program a class in Python.**
 
 
 Object-oriented programming is one of the most effective approaches to writing software. In object-oriented programming you write classes that represent real-world things and situations, and you create objects based on these classes. When you write a class, you define the general behavior that a whole category of objects can have. When you create individual objects from the class, each object is automatically equipped with the general behavior; you can then give each object whatever unique traits you desire. You'll be amazed how well real-world situations can be modeled with object-oriented programming. Making an object from a class is called instantiation, and you work with instances of a class. 
