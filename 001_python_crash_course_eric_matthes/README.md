@@ -219,6 +219,55 @@ The specifications for Mistral are the following:
 mistral-7b-instruct-v0.2.Q2_K.gguf|  Q2_K|  2| 3.08 GB| 5.58 GB| smallest, significant quality loss - not recommended for most purposes|
 
 
+**System:**
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+**User:**
+
+Write a Python class for a object named "Tree" with the following characteristics: Trunk, Roots, Branches, Crown. Within this Class "Tree", write four different methods (functions) for each of the four seasons: Winter, Summer, Autumn, Spring plus an extra method named Vivaldi that tells a random info among ten specific information on Tree.
+
+**Assistant:**
+
+```python
+class Tree:
+    def __init__(self, trunk, roots, branches, crown):
+        self.trunk = trunk
+        self.roots = roots
+        self.branches = branches
+        self.crown = crown
+    
+    def winter(self):
+        print("The tree is bare during Winter.")
+    
+    def summer(self):
+        print("During Summer, the tree is full of leaves.")
+    
+    def autumn(self):
+        print("In Autumn, the leaves turn red and fall off.")
+    
+    def spring(self):
+        print("Spring brings new growth to the tree.")
+    
+    def vivaldi(self):
+        info = ["The tree is a maple",
+                "It has a trunk that's 10 feet long",
+                "The crown of the tree is very wide",
+                "During winter, the leaves fall off and form a ring around the trunk",
+                "In spring, new growth appears on the branches",
+                "The tree produces acorns in autumn",
+                "During summer, the tree is full of bees buzzing around the flowers",
+                "The roots of the tree go deep into the ground",
+                "The trunk of the tree is very strong",
+                "During winter, the tree's branches form a protective canopy to shield the leaves from the cold wind"]
+        print(random.choice(info))
+```
+
+
+
+
+![Screen capture for Mistral answer in English for PROMPT_1](mistral_answer_in_english_prompt_1.png)
+
 
 #### PROMPT_2 French prompt for IA
 
@@ -293,7 +342,6 @@ print(mon_arbre.vivaldi())
 
 Vous pouvez créer une instance de la classe `Arbre` et appeler les méthodes correspondant à chaque saison. La méthode `vivaldi` fournit une information aléatoire sur l'arbre. N'hésitez pas à personnaliser la classe et les informations dans la méthode `vivaldi` selon vos besoins.
 
-#### Mistral answer in French for PROMPT_2
 
 
 
