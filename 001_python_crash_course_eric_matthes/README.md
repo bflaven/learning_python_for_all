@@ -79,6 +79,16 @@ cd 011_usecase_class_car
 ## 2. HOW-TO: think abstraction to create a Python Class
 
 **English Version**
+A personal introduction to the concept of Class in Python. Explanation which is also valid for other programming languages such as PHP or JavaScript.
+If you need to transpose a “Class” from one programming language to another, for example from Python to PHP, do not hesitate to use LLMs (chatGPT, Mistral, llama2...), they do this very GOOD!
+
+**French Version**
+Une introduction personnelle à la notion de Class en Python. Explication qui est aussi valable pour d'autres langages de programmation tel que le PHP ou le JavaScript.
+Si vous avez besoin de transposer une "Class" d’un langage de programmation à un autre par exemple du Python vers PHP, n’hésitez pas à recourir à des LLMs (chatGPT, Mistral, llama2...), ils font cela très bien !
+
+
+
+**English Version**
 
 A "Class" is trying to understand object-oriented programming. Writing a "Class", in its simplest definition, begins an intellectual process which has only one goal: to abstract an object.
 
@@ -132,6 +142,158 @@ It introduces the notion of post-truth era, who is the curator... Some major con
 # EN: Trunk, Roots, Branches, Crown, Twigs, Bole
 # FR: Tronc, Racines, Branches, Couronne, Pousses, Tige
 ```
+
+### Make the IA do the job wit Class!
+
+**To see the code in action, check the files: `ia_class_tree_english_1.py`, `ia_class_tree_english_2.py`, `ia_class_tree_french_1.py`, `ia_class_tree_french_2.py`**
+
+#### PROMPT_1  English prompt for IA
+
+```bash
+# English prompt for IA
+Write a Python class for a object named "Tree" with the following characteristics: Trunk, Roots, Branches, Crown. Within this Class "Tree", write four different methods (functions) for each of the four seasons: Winter, Summer, Autumn, Spring plus an extra method named Vivaldi that tells a random info among ten specific information on Tree.
+
+```
+
+#### ChatGPT answer in English for PROMPT_1
+Certainly! Below is a simple Python class named "Tree" with the specified characteristics and methods for each season, along with the extra method named "Vivaldi":
+
+```python
+import random
+
+class Tree:
+    def __init__(self, trunk, roots, branches, crown):
+        self.trunk = trunk
+        self.roots = roots
+        self.branches = branches
+        self.crown = crown
+
+    def winter(self):
+        return "In winter, the {} and {} are dormant, and the {} may lose its leaves.".format(self.trunk, self.roots, self.crown)
+
+    def summer(self):
+        return "In summer, the {} and {} are flourishing, and the {} is full of leaves.".format(self.trunk, self.roots, self.crown)
+
+    def autumn(self):
+        return "In autumn, the {} and {} may display vibrant colors, and the {} may shed its leaves.".format(self.trunk, self.roots, self.crown)
+
+    def spring(self):
+        return "In spring, the {} and {} start to bloom, and the {} gets new leaves.".format(self.trunk, self.roots, self.crown)
+
+    def vivaldi(self):
+        info_list = [
+            "Trees play a crucial role in carbon sequestration.",
+            "Certain trees shed their leaves in winter to conserve energy.",
+            "Roots anchor the tree and absorb nutrients from the soil.",
+            "Branches provide structural support and carry nutrients to the leaves.",
+            "The trunk is the main support structure of the tree.",
+            "The crown, or canopy, is the upper part of the tree that contains the leaves.",
+            "Different tree species have distinct growth patterns and shapes.",
+            "Some trees produce fruits and seeds as a means of reproduction.",
+            "Trees contribute to biodiversity by providing habitats for various species.",
+            "Forests help maintain ecological balance and regulate climate."
+        ]
+        return random.choice(info_list)
+
+# Example usage:
+my_tree = Tree(trunk="thick trunk", roots="extensive root system", branches="wide branches", crown="lush green crown")
+
+print(my_tree.winter())
+print(my_tree.summer())
+print(my_tree.autumn())
+print(my_tree.spring())
+print(my_tree.vivaldi())
+```
+
+In this example, you can create an instance of the `Tree` class and call the methods corresponding to each season. The `vivaldi` method provides a random piece of information about trees. Feel free to customize the class and the information in the `vivaldi` method as needed.
+
+
+#### Mistral answer in English for PROMPT_1
+
+
+The specifications for Mistral are the following:
+
+
+|**Name**|  **Quant method**|  **Bits**|  **Size**|  **Max RAM required**|  **Use case**|
+| ----------   | ----------| -------------| ----------   | ----------| -------------|
+mistral-7b-instruct-v0.2.Q2_K.gguf|  Q2_K|  2| 3.08 GB| 5.58 GB| smallest, significant quality loss - not recommended for most purposes|
+
+
+
+#### PROMPT_2 French prompt for IA
+
+```bash
+# French prompt for IA
+Ecrivez une Classe Python pour un objet nommé "Arbre" avec les caractéristiques suivantes : Tronc, Racines, Branches, Couronne. Dans cette Classe Python "Arbre", écrivez quatre méthodes (fonctions) différentes pour chacune des quatre saisons : Hiver, Été, Automne, Printemps plus une méthode supplémentaire nommée Vivaldi qui donne une information aléatoire parmi dix informations spécifiques sur l'Arbre e.g "Arbre".
+
+```
+#### ChatGPT answer in French for PROMPT_2
+
+Bien sûr ! Voici une classe Python pour un objet appelé "Arbre" avec les caractéristiques spécifiées, ainsi que des méthodes pour chaque saison et une méthode supplémentaire nommée "Vivaldi" qui fournit une information aléatoire parmi dix informations spécifiques sur l'arbre :
+
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
+"""
+cd /Users/brunoflaven/Documents/03_git/learning_python_for_all/001_python_crash_course_eric_matthes/
+
+python ia_class_tree_french.py
+
+Source: TP_1
+
+"""
+import random
+
+class Arbre:
+    def __init__(self, tronc, racines, branches, couronne):
+        self.tronc = tronc
+        self.racines = racines
+        self.branches = branches
+        self.couronne = couronne
+
+    def hiver(self):
+        return "En hiver, le {} et les {} sont en dormance, et la {} peut perdre ses feuilles.".format(self.tronc, self.branches, self.couronne)
+
+    def été(self):
+        return "En été, le {}, les {} et les {} prospèrent, et la {} est pleine de feuilles.".format(self.tronc, self.racines, self.branches, self.couronne)
+
+    def automne(self):
+        return "En automne, le {} et les {} peuvent afficher des couleurs vibrantes, et la {} peut perdre ses feuilles.".format(self.tronc, self.branches, self.couronne)
+
+    def printemps(self):
+        return "Au printemps, le {} et les {} commencent à fleurir, et la {} obtient de nouvelles feuilles.".format(self.tronc, self.branches, self.couronne)
+
+    def vivaldi(self):
+        infos = [
+            "Les arbres jouent un rôle crucial dans la séquestration du carbone.",
+            "Certains arbres perdent leurs feuilles en hiver pour économiser de l'énergie.",
+            "Les racines ancrent l'arbre et absorbent les nutriments du sol.",
+            "Les branches fournissent un support structurel et transportent les nutriments vers les feuilles.",
+            "Le tronc est la structure de support principale de l'arbre.",
+            "La couronne, ou le feuillage, est la partie supérieure de l'arbre qui contient les feuilles.",
+            "Différentes espèces d'arbres ont des motifs de croissance et des formes distincts.",
+            "Certains arbres produisent des fruits et des graines comme moyen de reproduction.",
+            "Les arbres contribuent à la biodiversité en fournissant des habitats pour diverses espèces.",
+            "Les forêts aident à maintenir l'équilibre écologique et à réguler le climat."
+        ]
+        return random.choice(infos)
+
+# Exemple d'utilisation :
+mon_arbre = Arbre(tronc="tronc épais", racines="système racinaire étendu", branches="branches larges", couronne="couronne verte luxuriante")
+
+print(mon_arbre.hiver())
+print(mon_arbre.été())
+print(mon_arbre.automne())
+print(mon_arbre.printemps())
+print(mon_arbre.vivaldi())
+
+```
+
+Vous pouvez créer une instance de la classe `Arbre` et appeler les méthodes correspondant à chaque saison. La méthode `vivaldi` fournit une information aléatoire sur l'arbre. N'hésitez pas à personnaliser la classe et les informations dans la méthode `vivaldi` selon vos besoins.
+
+#### Mistral answer in French for PROMPT_2
 
 
 
