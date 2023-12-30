@@ -1488,20 +1488,17 @@ from pizza import *
 
 **C'est un point essentiel dans la compréhension de la programmation mais comme souvent tout cela est souvent mal expliqué ? Pourquoi ? Je ne vois qu'une raison à cela : c'est abstrait.**
 
-A l'évocation de l'adjectif abstrait ou abstraction, pour chacun de nous, cela évoque  des pensées ou des images mentales différentes. Moi, par exemple je pense à l'art abstrait ou aux concepts abstraits de la philosophie la liberté, l'individu, la morale, la bien....etc. On est bien loin de la programmation.
+A l'évocation de l'adjectif abstrait ou abstraction, pour chacun de nous, cela évoque  des pensées ou des images mentales différentes. Moi, par exemple je visualise de l'art abstrait ou je pense aux concepts abstraits de la philosophie tel que: la liberté, l'individu, la morale, la bien....etc. On est bien loin de la programmation.
 
-Selon moi, ce que cela signifie, c'est que ma sensibilité ou mon imagination ne me permet pas de comprendre intuitivement ce qui se signifie l'abstraction ou bien cela m'a été mal expliqué. Or, en utilisant des mots simples et en se référant à l'usage, l'abstraction on s'en sert tous les jours dans le langage, dans le calcul mental au supermarché ou à la boulangerie par exemple.
+Qu'est-ce que cela signifie ? Selon moi, c'est la preuve que ma sensibilité ou mon imagination ne me permet pas de comprendre intuitivement ce qui signifie le sens du mot "abstraction". Or, en utilisant des mots simples et en se référant à l'usage, l'abstraction est un fait un concept dont on se sert quotidiennement. Par exemple, on s'en sert tous les jours par le biais du langage ou bien dans le calcul mental au supermarché ou à la boulangerie par exemple.
 
+Même si de prime abord, on ne perçoit pas l'abstraction car aucun de nos sens ne nous permet d'en avoir l'intuition, ni une expérience sensible à proprement parlé. La première impression est d’imaginer les notions d’abstraction ou de concept comme une chambre noire, un angle mort duquel on ne voit rien. Ce qui plutôt inquiétant d'ailleurs.
 
-Même si de prime abord, on ne comprend rien à l'abstraction car aucun de nos sens ne nous permet d'avoir l'intuition du résultat ou de l'idée qui se cache derrière.
-Et même si on a tendance à voir l'abstraction ou le concept comme une chambre noire, un angle mort duquel on ne voit rien. Ce qui plutôt inquiétant d'ailleurs.
-
-Eh bien c'est normal, pas facile de lever le voile sur l'idée qui se cache derrière, surtout lorsque on est enfant où l'essentiel des apprentissages se fait par le jeu, l'expérience, la tentative. Or dans mes souvenirs, à l'école, l'erreur était punie, enfant, j'en arrivai à ne plus tenter quoi que ce soit.
+Eh bien, c'est normal, pas facile de lever le voile sur l'idée qui se cache derrière, surtout lorsque on est enfant où l'essentiel des apprentissages se fait par le jeu, l'expérience sensible, une suite d'essais-erreurs. Or dans mes souvenirs, à l'école, l'erreur était punie, enfant, j'en arrivai à ne plus tenter quoi que ce soit de peur de ne pas trouver le résultat. Ce qui instille durablement le manque de confiance en soi.
 
 La peur de l'échec et la difficulté inhérente à la compréhension d'un tel concept fait que tout un coup, on ne distingue plus rien, on ne comprend plus rien et on décroche et le retard ne sera sans doute jamais rattraper !
 
 Par exemple, les notations de chiffres en mathématiques est la première abstraction connue que l'on vous enseigne à l'école.
-
 
 Jusqu'à présent, on a pratiqué et pratiqué encore en affichant autant que possible un résultat tangible en cherchant toujours rattacher la programmation à une expérience sensible ex: vous voyez le resultat de la fonftion que vous venez d'ecrire, vous interagissez avec votre programme...etc
 
