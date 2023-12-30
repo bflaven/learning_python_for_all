@@ -1511,7 +1511,7 @@ Prenons, une illustration pour comprendre cette notion de Classe (Class). On a t
 
 Ainsi, avec l'aide de cette liste de caractéristiques abstraites, on peut décrire à la fois un visage et tous les visages possibles. C'est ce principe qui prévaut dans la conception d'une Class en programmation. Il faut penser un objet à travers ces caractéristiques communes.
 
-Prenons l’exemple du visage. Pour décrire un visage, il nous fait les éléments suivants:
+Prenons l’exemple du visage. Pour décrire un visage, il nous faut les éléments suivants :
 
 ```bash
 # Class Face in English
