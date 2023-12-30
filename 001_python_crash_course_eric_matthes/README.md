@@ -1500,16 +1500,18 @@ La peur de l'échec et la difficulté inhérente à la compréhension d'un tel c
 
 Par exemple, les notations de chiffres en mathématiques est la première abstraction connue que l'on vous enseigne à l'école.
 
-Jusqu'à présent, on a pratiqué et pratiqué encore en affichant autant que possible un résultat tangible en cherchant toujours rattacher la programmation à une expérience sensible ex: vous voyez le resultat de la fonftion que vous venez d'ecrire, vous interagissez avec votre programme...etc
+Jusqu'à présent, on a pratiqué et pratiqué encore, en affichant autant que possible un résultat tangible, en cherchant toujours rattacher la programmation à une expérience sensible par exemple : vous voyez le résultat de la fonction que vous venez d'écrire, vous interagissez avec votre programme...etc
+
+Or, pour sortir de la pratique et du résultat, donnons une définition immédiate de la Classe (Class) en programmation qui est synonyme abstraction.
+
+**Une Classe (Class) est une abstraction, c'est à dire que vous allez tenter de décrire un objet ou un être vivant avec des caractéristiques applicables à tous les objets ou tous les êtres vivants du même type.**
+
+Prenons, une illustration pour comprendre cette notion de Classe (Class). On a tous vu dans les séries policières, la police faire des portraits-robots de suspects à l'aide de témoignages. Pour se faire, la police utilise un assortiment de caractéristiques ou "abstractions" qui permettent de décrire un visage : les cheveux, les yeux, le menton, le nez, la bouche, les oreilles, le menton.
 
 
-**Une classe est une abstraction, c'est à dire que vous allez tenter de décrire un objet ou un être vivant avec des caractéristiques applicables à tous les objets ou tous les êtres vivants du même type.**
+Ainsi, avec l'aide de cette liste de caractéristiques abstraites, on peut décrire à la fois un visage et tous les visages possibles. C'est ce principe qui prévaut dans la conception d'une Class en programmation. Il faut penser un objet à travers ces caractéristiques communes.
 
-On a tous vu dans les séries policières, la police faire des portraits-robots de suspects à l'aide de témoignages. Pour se faire, la police utilise un assortiment de caractéristiques ou "abstractions" qui permettent de décrire un visage : les cheveux, les yeux, le menton, le nez, la bouche, les oreilles, le menton.
-
-
-Ainsi, avec cette liste de caractéristiques ou d'abstraction, on peut décrire tous les visages possibles. C'est ce principe qui prévaut dans la conception d'une Class en programmation.
-
+Prenons l’exemple du visage. Pour décrire un visage, il nous fait les éléments suivants:
 
 ```bash
 # Class Face in English
