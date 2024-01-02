@@ -344,7 +344,7 @@ Vous pouvez créer une instance de la classe `Arbre` et appeler les méthodes co
 
 
 
-## 3. HOW-TO: Describe a tree as an object to build a class Named `Tree`
+## 3. EXTRA INFORMATION: how-to describe a tree as an object to build a class Named `Tree`
 I try to find some words to describe a tree. here is the explanations in French and in English.
 
 **French Version**
