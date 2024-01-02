@@ -648,9 +648,9 @@ https://code.visualstudio.com/
 
 The commands are used to check the version of Python installed on your system. 
 
-This line uses the python command to display the version of the default Python interpreter on your system. The --version flag is used to request and print the Python version.
+This line uses the python command to display the version of the default Python interpreter on your system. The `--version` flag is used to request and print the Python version.
 
-This line is similar to the previous one but specifically uses the python3 command. On some systems, there might be multiple Python versions installed, and python3 is often used to explicitly refer to Python 3.x, while python might refer to Python 2.x. The --version flag is again used to display the version information.
+This line is similar to the previous one but specifically uses the python3 command. On some systems, there might be multiple Python versions installed, and python3 is often used to explicitly refer to Python 3.x, while python might refer to Python 2.x. The `--version` flag is again used to display the version information.
 
 These commands are useful for quickly checking which version of Python is installed on your system. They provide information about the Python interpreter that will be invoked when you run scripts using the python or python3 command.
 
@@ -721,9 +721,18 @@ louise-best-quotes-citations.xls (doc. excel)
 
 
 #### - 2 - Le fichier
-Le nom de fichier
-L'extensition du fichier (.py)
+Décomposons le nom de fichier suivant : `arthur-script-1.py`
+Le nom de fichier est `arthur-script-1`
+L’extension du fichier est `.py` pour Python
 
+
+**Privilégiez toujours les noms sans espaces et sans accents**. 
+
+
+Vous pouvez éviter le espaces en utilisant le `tiret du haut` ou `hyphen` à savoir `-` ou le `tiret du bas` ou `underscore` à savoir `_`.
+
+Le `tiret du 6` ou `-` se nomme `hyphen` en anglais.
+Le `tiret du 8`, `tiret bas` ou `_` est appelé `underscore` en anglais.
 
 #### - 3 - Quelques instructions sur mon premier script
 
