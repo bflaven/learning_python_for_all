@@ -443,7 +443,7 @@ Climate Change
 
 
 
-## 3. HOW-TO: managing python environnement
+## 3. HOW-TO: managing python environment
 
 If you want to manage better manange your work in python (projects, scripts, POC) on your machine. It requires a tool to manage Python in local. I use ANACONDA.
 
