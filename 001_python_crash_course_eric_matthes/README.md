@@ -264,9 +264,8 @@ class Tree:
 ```
 
 
-
-
-![Screen capture for Mistral answer in English for PROMPT_1](mistral_answer_in_english_prompt_1.png)
+**Screen capture for Mistral answer in English for PROMPT_1 in LM Studio**
+![Screen capture for Mistral answer in English for PROMPT_1](mistral_answer_in_english_prompt_small_1.png)
 
 
 #### PROMPT_2 French prompt for IA
