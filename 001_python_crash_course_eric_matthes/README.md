@@ -115,7 +115,7 @@ Par exemple prenons un arbre. Comment peut-on décrire un arbre via des caracté
 Ainsi, tous les objets qui t'entourent peuvent décrit à l'aide du langage donc à l'aide d'abstraction. Tu peux t'amuser à décrire une voiture, une personne, un ours, une huître, un crabe, un stade, un ordinateur, une ville... Bref, c'est la grande force de l'esprit humain. Pour info, c'est un sujet qui ne concerne pas seulement l'informatique mais dépasse très largement ce cadre. On retrouves ce questionnement en mathématiques bien sûr mais plus encore en philosophie (Wittgenstein, Schopenhauer).
 
 
-**Words for a tree to create an object for a Pyhton Class**
+**Words for a tree to create an object for a Python Class**
 | **Nb**               | **French**        | **English**      |
 | ----------   | ----------| -------------|
 | 1 			   | Tronc         |Trunk         |
@@ -151,7 +151,7 @@ It introduces the notion of post-truth era, who is the curator... Some major con
 
 ```bash
 # English prompt for IA
-Write a Python class for a object named "Tree" with the following characteristics: Trunk, Roots, Branches, Crown. Within this Class "Tree", write four different methods (functions) for each of the four seasons: Winter, Summer, Autumn, Spring plus an extra method named Vivaldi that tells a random info among ten specific information on Tree.
+Write a Python class for a object named "Tree" with the following characteristics: "Trunk", "Roots", "Branches", "Crown". Within this Class "Tree", write four different methods (functions) for each of the four seasons: "Winter", "Summer", "Autumn", "Spring" plus an extra method named "Vivaldi" that tells a random info among ten specific information on "Tree".
 
 ```
 
@@ -225,7 +225,7 @@ Below is an instruction that describes a task. Write a response that appropriate
 
 **User:**
 
-Write a Python class for a object named "Tree" with the following characteristics: Trunk, Roots, Branches, Crown. Within this Class "Tree", write four different methods (functions) for each of the four seasons: Winter, Summer, Autumn, Spring plus an extra method named Vivaldi that tells a random info among ten specific information on Tree.
+Write a Python class for a object named "Tree" with the following characteristics: "Trunk", "Roots", "Branches", "Crown". Within this Class "Tree", write four different methods (functions) for each of the four seasons: "Winter", "Summer", "Autumn", "Spring" plus an extra method named "Vivaldi" that tells a random info among ten specific information on Tree.
 
 **Assistant:**
 
@@ -273,7 +273,7 @@ class Tree:
 
 ```bash
 # French prompt for IA
-Ecrivez une Classe Python pour un objet nommé "Arbre" avec les caractéristiques suivantes : Tronc, Racines, Branches, Couronne. Dans cette Classe Python "Arbre", écrivez quatre méthodes (fonctions) différentes pour chacune des quatre saisons : Hiver, Été, Automne, Printemps plus une méthode supplémentaire nommée Vivaldi qui donne une information aléatoire parmi dix informations spécifiques sur l'Arbre e.g "Arbre".
+Ecrivez une Classe Python pour un objet nommé "Arbre" avec les caractéristiques suivantes : "Tronc", "Racines", "Branches", "Couronne". Dans cette Classe Python "Arbre", écrivez quatre méthodes (fonctions) différentes pour chacune des quatre saisons : "Hiver", "Été", "Automne", "Printemps" plus une méthode supplémentaire nommée "Vivaldi" qui donne une information aléatoire parmi dix informations spécifiques sur l'Arbre e.g "Arbre".
 
 ```
 #### ChatGPT answer in French for PROMPT_2
