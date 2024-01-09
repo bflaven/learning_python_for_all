@@ -3,10 +3,11 @@
 
 
 """
-cd /Users/brunoflaven/Documents/03_git/learning_python_for_all/000_jupyter_notebooks/
+cd /Users/brunoflaven/Documents/03_git/learning_python_for_all/000_jupyter_notebooks/stage_fmm_segal/
 
-python segal_there.py
-python3 segal_there.py
+
+python segal_there_1.py
+python3 segal_there_1.py
 
 Source: 20/12/23 TP_1
 

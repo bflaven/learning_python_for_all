@@ -37,8 +37,8 @@ commmentaire
 # for fruit in fruits:
 #     print(f"Fruit : {fruit}")
     
-# courses_matin= ["jambon", "moutarge", "fromage", "thon", "saucisson"]
-# courses_soir= ["jambona", "moutargea", "fromagea", "thona", "saucissona"]
+# courses_matin= ["jambon", "moutarde", "fromage", "thon", "saucisson"]
+# courses_soir= ["jambona", "moutardea", "fromagea", "thona", "saucissona"]
 
 # print('\n--- MATIN\n') 
 # for course_matin in courses_matin:
