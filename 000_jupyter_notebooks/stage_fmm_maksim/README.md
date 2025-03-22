@@ -80,6 +80,7 @@ streamlit run 004_maksim_balkans_streamlit.py
 
 *Utilisation de Anaconda pour gérer les environnements en python*
 
+**Anaconda, c'est "koi" ?**
 Anaconda - Une plateforme de distribution gratuite qui regroupe de nombreux outils pour travailler avec Python et R, particulièrement pour les projets scientifiques, l'analyse de données et l'intelligence artificielle. C'est comme une grande boîte à outils déjà prête avec tout ce dont tu as besoin pour commencer à programmer sans avoir à installer chaque outil séparément. Anaconda inclut Python lui-même, plus de 1500 packages (bibliothèques) scientifiques populaires,
 
 
