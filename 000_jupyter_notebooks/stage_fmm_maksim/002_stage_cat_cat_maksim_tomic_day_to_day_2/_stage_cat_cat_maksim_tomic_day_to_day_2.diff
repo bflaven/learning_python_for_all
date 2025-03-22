@@ -1,0 +1,120 @@
+
+! STAGE D'OBSERVATION
+
+
++ JOUR_2 18/03/25
+
+
++ À REMPLIR par BF (bflaven)
+--- 1. Description du métier
+
+Quelle est la nature du effectué ?
+Quels outils ou machines utilisez-vous ?
+Quelle matière première utilisez-vous ?
+Votre métier a-t-il évolué depuis que vous avez commencé à le pratiquer ? en Quoi ? Pourquoi 
+
+
+
+--- 2. Conditions de travail
+1. Faire décrire le lieu de travail (bureau, atelier, magasin, extérieur, ville campagne)
+
+2. Faire décrire l'environnement l'atmosphère (bruit, température, position...) 
+3. Avez-vous un supérieur hiérarchique ?
+4. Quels sont les risques ? (Matériels, machine, produit chimique)
+5. Quels sont les horaires de travail ? Sont-ils réguliers ? Quel est le taux horaire maximum par semaine ?
+6. Y a-t-il des déplacements ? Avec une voiture de fonction ou votre véhicule personnel ? Etes-vous salarié ? Indépendant ?
+7. Quel est le revenu moyen de votre profession ? Ou bien les revenus de début et de fin de carrière ?
+8. Y a-t-il des primes ou des avantages divers
+9. Quelles sont les possibilités d'évolution de carrière ?
+
+
+10. Dans quelle autre condition dans quel autre lieu peut-on exercer ce métier ?
+
+--- 3. Qualité personnelle et formation requises
+1. Comment et pourquoi avez-vous choisi ce métier avez-vous
+2. Quelles sont les qualités qui vous semblent nécessaires pour ce métier
+3. Quelles études doit-on faire ? Quel diplôme doit-on avoir ?
+4. Peut-on continuer à se former et à se perfectionner ?
+
+
+
++ À REMPLIR par BF (bflaven)
+--- 1. Description du métier
+
+Quelle est la nature du travail l'effectué ?
+Quels outils ou machines utilisez-vous ?
+Quelle matière première utilisez-vous ?
+Votre métier a-t-il évolué depuis que vous avez commencé à le pratiquer ? En Quoi ? Pourquoi 
+
+
++ 2. COURS SUR LE PROMPT (maksim)
+
+Le prompt engineering est une discipline relativement nouvelle pour développer et optimiser des prompts afin d'utiliser efficacement des modèles de langage (LMs) pour une grande variété d'applications et de sujets de recherche. Les compétences en Prompt engineering aident à mieux comprendre les capacités et les limites des grands modèles de langage (LLMs).
+
+1. https://www.promptingguide.ai/fr
+2. https://learnprompting.org/docs/introduction
+3. https://developers.google.com/machine-learning/resources?hl=fr
+
+Attention pour l'IA, tout est une affaire de contenu, si le contenu n'est pas bon et que ce contenu a servi à entraîner l'IA (LLM) alors le résultat sera inexacte.
+Garbage in garbage out
+Déchets à l'intérieur, déchets à la sortie
+
+
++ 2. Création d'une petit webapp (maksim)
+
+--- prompt_1
+On veut écrire une web app qui va sélectionner le nom d'un joueur de basket parmi une liste de 5 joueurs de basket et lorsque le basketteur sera sélectionné on affichera à ce moment-là dans un champ la nationalité ou le pays d'origine et dans un deuxième champ l'équipe actuel dans lequel le joueur joue 
+
+La web app doit être écrite avec l'aide streamlit.
+
+Ci-dessous, voilà la liste des basketteurs à intégrer.
+
+1. Nom des basketteurs, 2. Pays, 3. Equipe NBA
+Lebron James, USA, Lakers
+Victor Wembanyama, France, Spurs
+Nikola Jokic, Serbie, Denver
+Giannis Antetokounmpo, Grèce, Bucks
+Denis Schröder, Allemagne, Pistons
+
+
+On veut pouvoir lorsqu'on sélectionne un joueur afficher la photo de ce joueur en 300 pixels par 300 pixels tâche de trouver des photos correspondantes à chacun de ces joueurs la photo officielle par exemple de la NBA. 
+
+
+--- prompt_2
+Réécris l'application avec les mêmes fonctionnalités avec un titre, un nom d'application et une icône pour illustrer l'application.
+
+
+--- prompt_3
+Réécris l'application avec les mêmes fonctionnalités mais remplace Victor Wembanyama par Rudy Gobert.
+
+
+--- prompt_4
+Réécris l'application avec les mêmes fonctionnalités en ajoutant la taille en cm et leur poste comme joueur.
+
+--- prompt_5
+Réécris l'application avec les mêmes fonctionnalités en ajoutant la bague NBA qui atteste que le joueur à gagner le championnat NBA et indique les années.
+
+
+--- prompt_6
+Réécris l'application avec les mêmes fonctionnalités et quand tu charges l'application met dans le menu déroulant "Sélectionner un joueur" et ne mets pas Lebron James par défaut.
+
+
+Exemples d'appicationa avec streamlit
+https://streamlit.io/gallery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

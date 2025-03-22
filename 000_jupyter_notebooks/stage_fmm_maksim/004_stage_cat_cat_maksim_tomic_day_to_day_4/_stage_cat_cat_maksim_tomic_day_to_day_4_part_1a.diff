@@ -1,0 +1,118 @@
+
+! STAGE D'OBSERVATION
+
++ JOUR_4 20/03/25 part_1
+
++ 1. VOCABULAIRE
+--- donner la définition des mots suivants: 
+
+- LLM
+Un LLM (Large Language Model ou Modèle de Langage de Grande Taille en français) est un type d'intelligence artificielle qui a été entraîné sur d'énormes quantités de textes pour apprendre à comprendre et générer du langage humain. C'est comme un super ordinateur qui peut converser, répondre à des questions, écrire des histoires ou des dissertations, et même faire semblant de comprendre nos émotions. Des exemples populaires incluent ChatGPT, Claude, ou Google Gemini. Ces systèmes fonctionnent en prédisant quel mot devrait suivre dans une phrase en se basant sur tout ce qu'ils ont "lu" pendant leur entraînement.
+
+- Prompt
+Un prompt est simplement la question ou l'instruction que tu donnes à une IA comme un LLM. C'est le point de départ de ton interaction avec l'IA. Par exemple, si tu écris "Explique-moi la photosynthèse" dans ChatGPT, cette phrase est ton prompt. La qualité et la précision de ton prompt peuvent influencer énormément la réponse que tu recevras - plus ton prompt est clair et détaillé, plus l'IA aura de chances de te donner exactement ce que tu cherches.
+
+- Hallucination
+Dans le contexte de l'IA, une hallucination se produit quand un système comme ChatGPT ou Claude invente des informations qui semblent plausibles mais qui sont fausses. Par exemple, l'IA pourrait citer un livre qui n'existe pas, inventer des statistiques, ou prétendre qu'un événement s'est produit alors que ce n'est pas le cas. Les hallucinations surviennent parce que ces systèmes sont entraînés pour produire du texte qui semble cohérent et plausible, même quand ils ne "savent" pas vraiment la réponse. C'est un problème important des LLMs actuels.
+
+- Garbage in, garbage out (GIGO)
+GIGO est un principe informatique qui signifie "si vous entrez des données de mauvaise qualité, vous obtiendrez des résultats de mauvaise qualité". En français, on pourrait traduire par "Poubelle à l'entrée, poubelle à la sortie". C'est comme si tu essayais de faire une omelette avec des œufs pourris - le résultat ne sera jamais bon, peu importe tes talents de cuisinier. Pour l'IA, cela signifie que si tu poses une question confuse, incomplète ou incorrecte (le "garbage in"), tu recevras probablement une réponse tout aussi confuse, incomplète ou incorrecte (le "garbage out"). Ce principe nous rappelle l'importance de fournir des données de qualité et des instructions claires aux systèmes informatiques.
+
+
++ 2. LES OUTILS
+--- Editeur de code : sublime text, visual code studio
+Sublime Text - Un éditeur de code léger et rapide qui est très apprécié par les développeurs. C'est comme un traitement de texte spécialement conçu pour écrire du code informatique. Sublime Text est connu pour sa simplicité visuelle, sa rapidité même avec de gros fichiers, et ses fonctionnalités puissantes comme la coloration syntaxique (qui affiche le code en différentes couleurs pour le rendre plus lisible), la sélection multiple (qui permet de modifier plusieurs endroits en même temps), et les nombreuses extensions qui peuvent être ajoutées pour personnaliser ton expérience. Il est disponible sur Mac, Windows et Linux.
+
+Visual Studio Code (ou VS Code) - Un éditeur de code gratuit et très populaire développé par Microsoft. C'est comme un atelier complet pour les programmeurs. VS Code offre beaucoup plus que la simple édition de texte : il intègre un débogueur (pour trouver et corriger les erreurs dans ton code), un terminal intégré (pour exécuter des commandes sans quitter l'éditeur), et un système d'extensions très riche qui te permet d'ajouter presque n'importe quelle fonctionnalité. Il s'adapte automatiquement à presque tous les langages de programmation et peut même t'aider à compléter ton code grâce à l'intelligence artificielle. C'est probablement l'éditeur le plus utilisé actuellement par les développeurs professionnels et les débutants.
+
+
+https://www.clubic.com/telecharger-fiche430809-sublime-text.html
+https://code.visualstudio.com/
+
+--- Autre outils: Terminal (mac), Console, Console CMD window
+
+Terminal (Mac) - Une application sur les ordinateurs Mac qui te permet de communiquer directement avec le système d'exploitation en tapant des commandes textuelles. C'est comme parler directement à ton ordinateur dans son langage au lieu d'utiliser des icônes et des menus graphiques. Avec le Terminal, tu peux exécuter des programmes, gérer des fichiers, installer des logiciels ou modifier des paramètres système de façon plus directe et parfois plus puissante que ce que permet l'interface graphique habituelle.
+
+Console - Un terme général qui désigne une interface en ligne de commande où tu peux entrer des instructions textuelles pour contrôler ton ordinateur. Sur Mac, c'est le Terminal, sur Windows, c'est généralement CMD ou PowerShell. La console est souvent utilisée par les programmeurs, les administrateurs système ou les utilisateurs avancés pour effectuer des tâches de façon plus précise ou automatisée. C'est aussi un outil important pour déboguer (trouver des erreurs dans) des programmes.
+
+Console CMD (Windows) - L'équivalent Windows du Terminal sur Mac. CMD (abréviation de "Command Prompt" ou "Invite de commandes" en français) est l'interface en ligne de commande traditionnelle de Windows qui te permet d'exécuter des commandes textuelles. C'est comme un moyen de communiquer directement avec ton système Windows en lui donnant des instructions écrites plutôt qu'en cliquant sur des boutons. Tu peux l'utiliser pour naviguer dans tes fichiers, exécuter des programmes, configurer des paramètres réseau, ou résoudre certains problèmes système.
+--- Langage et environnement : Python, Javascript, Anaconda, Streamlit
+
+Python - Un langage de programmation très populaire et facile à apprendre. C'est comme un outil qui permet de donner des instructions à l'ordinateur en utilisant un code qui ressemble presque à l'anglais normal. Python est utilisé pour créer des sites web, des jeux, des applications, faire de l'analyse de données ou même développer de l'intelligence artificielle.
+
+Javascript - Un langage de programmation qui donne vie aux sites web. Si HTML est le squelette d'une page web et CSS son apparence, Javascript est ce qui lui permet de bouger et d'interagir avec toi. C'est grâce à Javascript que les boutons réagissent quand tu cliques dessus, que les images défilent automatiquement ou que les jeux fonctionnent directement dans ton navigateur.
+
+Anaconda - Une plateforme qui rassemble plein d'outils pour travailler avec Python, particulièrement pour les projets scientifiques et l'analyse de données. C'est comme une boîte à outils déjà prête avec tout ce dont tu as besoin pour commencer à programmer sans avoir à installer chaque outil séparément. Anaconda inclut des environnements qui permettent d'organiser différents projets sans qu'ils interfèrent entre eux.
+
+Streamlit - Un outil qui permet de transformer rapidement des scripts Python en applications web interactives sans avoir besoin de connaître le développement web. C'est comme si tu pouvais créer une application avec interface graphique en écrivant seulement quelques lignes de code Python. Très utile pour présenter des projets d'analyse de données ou créer des tableaux de bord interactifs que d'autres personnes peuvent utiliser via internet.
+
+--- Navigateur: Chrome
+Chrome - Un navigateur web créé par Google qui te permet d'accéder à Internet et de consulter des sites web. C'est comme une fenêtre vers le monde en ligne. Chrome est actuellement le navigateur le plus utilisé dans le monde grâce à sa rapidité et sa simplicité d'utilisation. Il synchronise automatiquement tes favoris, ton historique et tes mots de passe entre tous tes appareils si tu te connectes avec ton compte Google. Chrome dispose aussi d'une boutique d'extensions qui permettent d'ajouter des fonctionnalités supplémentaires, comme bloquer les publicités ou vérifier l'orthographe. Un autre avantage de Chrome est sa sécurité : il se met à jour automatiquement et te prévient quand tu visites des s
+
+--- Chats: Mistral, Claude, ChatGPT, Perplexity
+
+Mistral - Un modèle d'intelligence artificielle développé par une entreprise française du même nom. C'est comme un cerveau numérique qui peut comprendre et générer du texte. Mistral est connu pour être assez puissant tout en étant plus léger que certains concurrents, ce qui permet de l'utiliser sur des ordinateurs moins puissants. Il existe en plusieurs versions, certaines gratuites et open-source (dont le code est accessible à tous), d'autres plus avancées et payantes.
+
+Claude - Un assistant d'intelligence artificielle créé par l'entreprise Anthropic. C'est comme un robot conversationnel capable de discuter, répondre à des questions, écrire des textes ou analyser des documents. Claude est conçu pour être utile, inoffensif et honnête. Il peut t'aider à faire des recherches, rédiger des textes, expliquer des concepts complexes ou même créer du contenu créatif comme des histoires.
+
+ChatGPT - Un agent conversationnel d'intelligence artificielle développé par OpenAI. C'est probablement le plus connu des assistants IA. ChatGPT peut discuter sur presque tous les sujets, répondre à tes questions, t'aider à rédiger des textes, résumer des informations ou même écrire du code informatique. Il existe en plusieurs versions, dont certaines gratuites et d'autres plus avancées qui sont payantes.
+
+Perplexity - Un moteur de recherche augmenté par l'intelligence artificielle. Contrairement aux moteurs de recherche traditionnels qui te montrent une liste de liens, Perplexity te donne directement des réponses complètes à tes questions en synthétisant les informations trouvées sur internet. Il peut citer ses sources pour que tu puisses vérifier d'où viennent les informations. C'est comme avoir un assistant de recherche qui fait le travail de chercher et résumer l'information pour toi.
+
+--- LLM specialisés: Deepl (traduction), Whisper (transcription)
+
+DeepL - Un service de traduction en ligne qui utilise l'intelligence artificielle pour traduire des textes d'une langue à une autre. Contrairement à d'autres traducteurs, DeepL est réputé pour produire des traductions qui semblent très naturelles, presque comme si elles avaient été écrites par un humain. Il comprend le contexte et le sens des phrases, pas seulement les mots individuels. Tu peux l'utiliser pour traduire des textes entiers, des documents ou même des sites web entre différentes langues comme le français, l'anglais, l'allemand, l'espagnol et beaucoup d'autres.
+
+Whisper - Un système de reconnaissance vocale développé par OpenAI qui transforme la parole en texte écrit. C'est comme avoir quelqu'un qui écoute des enregistrements audio et écrit exactement ce qui est dit. Whisper est particulièrement performant car il a été entraîné sur énormément d'heures d'audio dans de nombreuses langues. Il peut transcrire des podcasts, des vidéos, des interviews ou n'importe quel enregistrement audio, même avec des accents différents ou dans des environnements bruyants. Il peut aussi identifier automatiquement la langue parlée et même traduire l'audio d'une langue à une autre.
+
+--- Outils office : Word, Google doc (la fonction speech to text)
+Word - Un logiciel de traitement de texte développé par Microsoft qui permet de créer, modifier et mettre en forme des documents écrits. La fonction Speech to Text (dictée vocale) de Word te permet de parler à ton ordinateur au lieu de taper sur le clavier. C'est comme avoir un assistant qui écrit tout ce que tu dis. Tu actives cette fonction en cliquant sur "Dictée" dans le menu, puis tu parles clairement dans ton micro. Word transforme automatiquement ta voix en texte écrit. Cette fonction est particulièrement utile si tu as du mal à taper rapidement, si tu as des difficultés motrices, ou simplement si tu préfères exprimer tes idées oralement plutôt que par écrit.
+
+Google Docs - Un service de traitement de texte en ligne développé par Google qui te permet de créer et partager des documents via internet. La fonction Speech to Text (saisie vocale) de Google Docs fonctionne de manière similaire à celle de Word. Tu l'actives en cliquant sur "Outils" puis "Saisie vocale", ou en utilisant le raccourci Ctrl+Shift+S. Un petit micro apparaît alors, et tout ce que tu dis est instantanément transformé en texte dans ton document. Un avantage de Google Docs est que cette fonctionnalité est accessible gratuitement et fonctionne directement dans ton navigateur web, sans avoir besoin d'installer de logiciel supplémentaire. De plus, comme tout document Google, tes textes dictés sont automatiquement sauvegardés dans le cloud et accessibles depuis n'importe quel appareil connecté à internet.
+
+
+- Définitions de FMM, des antennes (RFI, F24, OBS, MCD)
+
+FMM (France Médias Monde) - Un groupe audiovisuel public français qui s'occupe de diffuser l'information française à l'international. C'est comme une grande organisation qui regroupe plusieurs médias français destinés au public du monde entier. FMM est chargée de faire rayonner la culture et le point de vue français à travers le monde, un peu comme un ambassadeur médiatique de la France.
+
+RFI (Radio France Internationale) - Une radio française qui diffuse ses programmes partout dans le monde et dans plusieurs langues. C'est l'une des antennes de FMM. Elle permet aux gens du monde entier d'écouter des informations, des reportages et des émissions culturelles avec un regard français. RFI est particulièrement importante dans des pays où l'accès à l'information libre peut être difficile, et elle diffuse dans plus de 15 langues différentes.
+
+F24 (France 24) - Une chaîne de télévision d'information en continu qui fait partie de FMM. Elle diffuse 24h/24 des informations, des reportages et des débats dans plusieurs langues (français, anglais, arabe et espagnol). C'est comme CNN ou BBC, mais avec une perspective française sur l'actualité internationale. France 24 permet aux téléspectateurs du monde entier de suivre l'actualité avec un regard français.
+
+OBS (les observateurs) - Un service de FMM qui analyse et observe les tendances médiatiques internationales. C'est comme un groupe d'experts qui surveille comment l'information circule dans le monde, détecte les fake news et étudie l'évolution des médias. L'Observatoire permet de mieux comprendre comment les médias influencent l'opinion publique mondiale.
+Note:  tu as parlé à DTH, le rédacteur en chef, Les Observateurs (version française) ou Editor-in-Chief, The Observers (version anglaise)
+
+MCD (Monte Carlo Doualiya) - Une radio en langue arabe qui fait partie de FMM. C'est comme RFI mais spécifiquement pour le monde arabe. Elle diffuse des informations, des émissions culturelles et des débats en arabe, permettant ainsi de toucher un large public dans les pays du Moyen-Orient et d'Afrique du Nord. MCD est connue pour son approche objective de l'information et sa promotion des valeurs démocratiques et du dialogue entre les cultures.
+
+
+- Définitions des postes (devops, back office, développeur, front, site, coordinateur IA, marketing)
+
+DevOps - Un professionnel qui fait le pont entre le développement des applications (ceux qui créent les logiciels) et les opérations informatiques (ceux qui gèrent les serveurs et l'infrastructure). Le DevOps s'assure que les nouveaux codes peuvent être déployés rapidement et de façon fiable. C'est comme un chef d'orchestre qui fait en sorte que tout fonctionne bien ensemble, en automatisant beaucoup de processus pour éviter les erreurs humaines et accélérer la mise en ligne des nouveautés.
+
+Back Office - Une personne qui travaille sur les aspects invisibles pour l'utilisateur. Dans une entreprise numérique, c'est celui qui s'occupe des systèmes internes, de la gestion des données, de l'administration et du support technique. C'est un peu comme les coulisses d'un spectacle : tu ne les vois pas directement, mais sans eux, rien ne fonctionnerait correctement. Le back office est essentiel au bon fonctionnement de l'entreprise.
+
+Développeur - Un professionnel qui écrit le code informatique pour créer des logiciels, sites web ou applications. C'est comme un architecte et un constructeur en même temps, mais pour des choses numériques. Il traduit des idées en instructions que l'ordinateur peut comprendre et exécuter. Il existe différents types de développeurs selon les langages de programmation qu'ils utilisent et les types de projets sur lesquels ils travaillent.
+
+Front - Aussi appelé "développeur front-end", c'est la personne qui crée la partie visible d'un site web ou d'une application, celle avec laquelle les utilisateurs interagissent directement. Il s'occupe de l'apparence, des animations, des boutons et de tout ce que tu vois à l'écran. Il utilise des langages comme HTML, CSS et JavaScript pour rendre l'expérience agréable et intuitive pour les utilisateurs.
+
+Site (Webmaster ou gestionnaire de site) - La personne responsable de la gestion globale d'un site web. Cela inclut sa maintenance, ses mises à jour, sa sécurité et parfois son contenu. C'est comme le gardien du site qui s'assure que tout fonctionne correctement, que les liens ne sont pas cassés, que les pages se chargent rapidement et que le site reste à jour et sécurisé.
+
+Coordinateur IA - Un professionnel qui supervise l'intégration et l'utilisation de l'intelligence artificielle dans les produits ou services d'une entreprise. Il fait le lien entre les experts techniques en IA, les besoins de l'entreprise et les utilisateurs. C'est comme un traducteur qui aide l'entreprise à utiliser efficacement l'IA en comprenant à la fois les aspects techniques et les objectifs commerciaux.
+
+Marketing - Un professionnel chargé de promouvoir les produits ou services d'une entreprise pour attirer et fidéliser des clients. Il analyse les besoins du marché, définit des stratégies pour toucher le public cible, crée des campagnes publicitaires et mesure leur efficacité. Dans le monde numérique, le marketing implique souvent la gestion des réseaux sociaux, l'optimisation pour les moteurs de recherche et les campagnes publicitaires en ligne.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

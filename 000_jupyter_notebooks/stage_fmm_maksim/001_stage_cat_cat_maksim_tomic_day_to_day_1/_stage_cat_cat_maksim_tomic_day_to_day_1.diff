@@ -1,0 +1,79 @@
+
+! STAGE D'OBSERVATION
+
+
++ JOUR_1 17/03/25
+
+Présentation des personnes de la DEN (direction des Environnements numériques) de FMM (France Médias Monde)
+
+FMM est un groupe de médias qui diffusent de l'information à l'international.
+Pour que les auditrices et auditeurs de RFI et MCD, les téléspectatrices et téléspectateurs de France 24, et celles et ceux qui suivent nos offres numériques, quels que soient leur âge, leur parcours ou leurs origines aient accès en français, dans leur langue maternelle ou dans une des autres langues du groupe, à une information libre, indépendante, vérifiée, honnête, équilibrée et experte, produite par des équipes professionnelles. Contre toute forme de manipulation. Partout dans le monde.
+
+
+En voir plus sur https://www.francemediasmonde.com/fr/
+
+--- d'autres groupes européens
+
+https://www.dw.com/
+https://www.bbc.com/
+https://edition.cnn.com/
+
+--- les différentes qui travaillent sur l'open space
+département EXP (HHE, ABE, HRA)
+département DEV/OPS (WMB)
+département BACKOFFICE (GLA, CND, BME, JHA)
+département Marketing/publicité (RST)
+département RSE (FGA)
+
+
+--- code segal
+https://github.com/bflaven/learning_python_for_all/tree/main/000_jupyter_notebooks
+
+--- VIDEO_1
+https://www.youtube.com/watch?v=h1E_QOrYdHs
+--- VIDEO_2
+https://www.youtube.com/watch?v=jFUEhhPX2NI
+--- VIDEO_3
+https://www.youtube.com/watch?v=rhvjFIb6YhQ
+
+
+! PROGRAMMING PYTHON
+cd /Users/brunoflaven/Documents/02_copy/stage_cat_cat_maksim_tomic/programmation_files/
+
+(ii) Comment lancer un jupyter notebook
+# va dans le répertoire où se trouvent les notebooks
+cd /[your-path]/000_jupyter_notebooks/
+
+# lancer le notebook
+jupyter notebook
+
+
+! LLM OPEN-SOURCE
+Pour la transcription, c'est Whisper (speech to text)
+https://openai.com/index/whisper/
+
+Pour l'IAG (intelligence artificielle générative), c'est Mistral
+https://mistral.ai/fr
+
+
+! LE PROMPT C'EST KOI ?
+Le prompt c'est une question à un LLM comme ChatGPT.
+
+- model prompt
+--- en
+As an expert in drawing, can you illustrate only with sketches that look like visual notetaking the use cases for IA: create a dashboard that show several KPIs for carbon footprint measurement using a LLM like Claude, Grok, ChatGPT, Perplexity or Mistral both through an API or locally on a computer. Do not use computer images, just drawing.
+This image will be used for a thumbnail of YouTube video, so make it appealing and clickable.
+
+
+--- fr
+En tant qu'expert en dessin, pouvez-vous illustrer, par des croquis ressemblant à des notes visuelles, les cas d'utilisation de l'IA : créer un tableau de bord présentant plusieurs indicateurs clés de performance (KPI) pour la mesure de l'empreinte carbone à l'aide d'un LLM comme Claude, Grok, ChatGPT, Perplexity ou Mistral, via une API ou localement sur un ordinateur. N'utilisez pas d'images numériques, mais uniquement des dessins.
+Cette image sera utilisée pour une miniature de vidéo YouTube ; assurez-vous qu'elle soit attrayante et cliquable.
+
+--- prompt_maksim_fr_1
+En tant qu'expert en dessin, peux-tu illustrer la proposition suivante : Dessine-moi une pomme qui joue au foot avec un ballon de rugby dans l'espace.
+
+
+
+--- prez JJE
+Product manager
+DEN

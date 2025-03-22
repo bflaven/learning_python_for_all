@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harcèlement - Alerte</title>
+</head>
+<body>
+    <h1>Signaler le harcèlement</h1>
+    <button onclick="demanderDuree()">Tester</button>
+    <p id="resultat"></p>
+
+    <script>
+        function signalerHarcelement(dureeEnSemaines) {
+            if (dureeEnSemaines === 1) {
+                return "Parle-en aux surveillants.";
+            } else if (dureeEnSemaines >= 2 && dureeEnSemaines <= 3) {
+                return "Parle-en à ton professeur principal.";
+            } else if (dureeEnSemaines >= 6 && dureeEnSemaines <= 8) {
+                return "Parle-en au proviseur.";
+            } else {
+                return "Cherche de l'aide immédiatement auprès d'un adulte de confiance.";
+            }
+        }
+
+        function demanderDuree() {
+            const dureeEnSemaines = parseInt(prompt("Depuis combien de semaines subis-tu du harcèlement ?"));
+            document.getElementById("resultat").innerText = signalerHarcelement(dureeEnSemaines);
+        }
+    </script>
+</body>
+</html>

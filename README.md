@@ -135,6 +135,7 @@ git commit -am "add files and update readme"
 git commit -am "add to .svg the Musk\'s Favorite Letter X"
 git commit -am "add .gitignore"
 git commit -am "add docker files"
+git commit -am "updates files maksim"
 
 
 # push to github if your branch on github is master
