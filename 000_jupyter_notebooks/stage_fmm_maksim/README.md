@@ -212,8 +212,8 @@ git commit -am "updates files maksim"
 
 # push to github if your branch on github is master
 # git push origin master
-# git push
-git push -u origin main
+git push
+# git push -u origin main
 # git push origin master
 
 ```
