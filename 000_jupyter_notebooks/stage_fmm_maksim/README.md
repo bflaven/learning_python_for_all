@@ -171,16 +171,26 @@ ollama list
 
 
 ## VIDÉOS
-Coming soon
-<!-- 
-### Vidéo #1 Stage d'observation du 20 au 22 décembre 2023 au sein de France Médias Monde (Français)
-
-[Vidéo #1 Stage d'observation du 20 au 22 décembre 2023 au sein de France Médias Monde (Français)](https://www.youtube.com/watch?v=h1E_QOrYdHs)[![Vidéo #1 Stage d'observation du 20 au 22 décembre 2023 au sein de France Médias Monde (Français)](explications_segal_1.png)](https://www.youtube.com/watch?v=h1E_QOrYdHs)
 
 
- -->
+### Vidéo #1 Stage d'observation du 17 au 21 décembre 2025 au sein de France Médias Monde (Français)
+
+[Vidéo #1 Stage d'observation du 17 au 21 décembre 2025 au sein de France Médias Monde (Français)](https://www.youtube.com/watch?v=g8PK-lEw9Ug)[![Vidéo #1 Stage d'observation du 17 au 21 décembre 2025 au sein de France Médias Monde (Français)](explications_maksim_1.png)](https://www.youtube.com/watch?v=g8PK-lEw9Ug)
 
 
+
+**Description**
+Introduction plus avancée aux concepts de programmation avec la gestion des environnements via Anaconda et des packages et utilisation de requêtes avancées sur Mistral via Ollama et sur le chat de Mistral https://chat.mistral.ai/
+
+Tout le code se trouve sur le compte GitHub à cette adresse
+https://github.com/bflaven/learning_python_for_all/tree/main/000_jupyter_notebooks/stage_fmm_maksim
+
+Utilisation des packages Python et des environnements de développement avec Anaconda
+Utilisation du LLM Mistral via de Ollama sur le poste de travail
+Découverte de la Création d'image en programmation Python
+
+Qu'est-ce qu'un grand modèle de langage (LLM, Large Language Model) ?
+Un LLM est un modèle de langage étendu (LLM, Large Language Model) est un type de programme d'intelligence artificielle (IA ) capable de reconnaître et de générer du texte, entre autres tâches. Les LLM sont formés sur d'énormes ensembles de données - d'où le nom "large." Les LLM reposent sur l'apprentissage automatique : en particulier, un type de réseau neuronal appelé modèle de transformateur.
 
 
 ## GIT COMMANDS REMINDER
