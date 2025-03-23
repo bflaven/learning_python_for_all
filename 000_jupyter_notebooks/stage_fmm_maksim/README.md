@@ -40,7 +40,7 @@ programmation_files
 cd /Users/brunoflaven/Documents/03_git/learning_python_for_all/000_jupyter_notebooks/stage_fmm_maksim/
 # where am I ?
 pwd
-# listing the file
+# listing the files in the directory
 ls -l
 ```
 
@@ -81,7 +81,7 @@ streamlit run 004_maksim_balkans_streamlit.py
 *Utilisation de Anaconda pour gérer les environnements en python*
 
 **Anaconda, c'est "koi" ?**
-Anaconda - Une plateforme de distribution gratuite qui regroupe de nombreux outils pour travailler avec Python et R, particulièrement pour les projets scientifiques, l'analyse de données et l'intelligence artificielle. C'est comme une grande boîte à outils déjà prête avec tout ce dont tu as besoin pour commencer à programmer sans avoir à installer chaque outil séparément. Anaconda inclut Python lui-même, plus de 1500 packages (bibliothèques) scientifiques populaires,
+Anaconda - Une plateforme de distribution gratuite qui regroupe de nombreux outils pour travailler avec Python et R, particulièrement pour les projets scientifiques, l'analyse de données et l'intelligence artificielle. C'est comme une grande boîte à outils déjà prête avec tout ce dont tu as besoin pour commencer à programmer sans avoir à installer chaque outil séparément. Anaconda inclut Python lui-même, plus de 1500 packages (bibliothèques) scientifiques populaires, et des applications comme Jupyter Notebook qui te permettent d'écrire et d'exécuter du code de façon interactive. Un des grands avantages d'Anaconda est sa gestion des "environnements", qui te permet de créer des espaces isolés pour différents projets avec leurs propres versions de packages, évitant ainsi les conflits entre tes différents programmes. C'est très utilisé par les étudiants, les chercheurs et les professionnels dans les domaines de la science des données, l'apprentissage automatique et la visualisation de données.
 
 
 - Site officiel de Anaconda : https://www.anaconda.com/
@@ -117,6 +117,59 @@ streamlit run 004_maksim_nba_streamlit.py
 ```
 
 
+- **4. Gérer localemnt des LLM avec Ollama**
+
+*Utilisation de Anaconda pour gérer les environnements en python*
+
+**Anaconda, c'est "koi" ?**
+Ollama - Un logiciel gratuit et open-source qui te permet d'installer et d'utiliser différents modèles d'intelligence artificielle directement sur ton propre ordinateur, au lieu de passer par internet. C'est comme avoir ton propre assistant IA personnel qui fonctionne même sans connexion internet. Ollama te donne accès à plusieurs modèles IA comme Llama, Mistral ou Gemma que tu peux télécharger facilement avec une simple commande. L'avantage principal d'Ollama est la confidentialité : tes conversations et tes données restent sur ton ordinateur et ne sont pas envoyées vers des serveurs externes. C'est aussi pratique pour les développeurs qui veulent expérimenter avec l'IA sans payer d'abonnement à des services en ligne. Par contre, comme ces modèles fonctionnent sur ton propre matériel, ils sont généralement moins puissants que les versions en ligne comme ChatGPT ou Claude, surtout si ton ordinateur n'est pas très récent ou n'a pas de carte graphique performante.
+
+
+``` bash
+# utiliser mistral en local
+ollama list
+ollama run mistral:latest
+```
+
+
+```bash
+# To run and chat with Llama 2
+ollama run llama2
+ollama run codellama:7b
+
+
+
+# To run and chat with orca-mini
+ollama run orca-mini
+ollama pull orca-mini
+ollama run codellama:7b
+
+# remove a model
+ollama rm llama2
+ollama rm orca-mini
+ollama rm codellama:7b
+ollama rm codellama:7b-python
+
+
+# list the model
+ollama list
+
+
+# when you are in the model you can use
+>>> /?
+>>> /list
+>>> /set verbose
+
+# to get out from the model
+/exit
+```
+
+
+
+- Site officiel ollama : https://ollama.com/
+- Github ollama : https://github.com/ollama/ollama
+
+
 ## VIDÉOS
 Coming soon
 <!-- 
@@ -126,3 +179,41 @@ Coming soon
 
 
  -->
+
+## GIT COMMANDS REMINDER
+
+```bash
+
+# go to the directory
+cd /Users/brunoflaven/Documents/03_git/learning_python_for_all/000_jupyter_notebooks
+
+# know your branch
+git branch
+
+
+# check for status
+git status
+
+
+# for any change just type this command
+git add .
+
+# add a commit with a message
+git commit -am "add usecase"
+git commit -am "add files"
+git commit -am "update files"
+git commit -am "update readme"
+git commit -am "add files and update readme"
+git commit -am "add to .svg the Musk\'s Favorite Letter X"
+git commit -am "add .gitignore"
+git commit -am "add docker files"
+git commit -am "updates files maksim"
+
+
+# push to github if your branch on github is master
+# git push origin master
+# git push
+git push -u origin main
+# git push origin master
+
+```

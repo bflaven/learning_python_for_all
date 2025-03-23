@@ -14,7 +14,7 @@ Fais moi une icone avec des drapeaux inventés
 
 
 
-## utilser mistral en local
+## utiliser mistral en local
 ollama list
 ollama run mistral:latest
 
