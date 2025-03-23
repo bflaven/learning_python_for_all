@@ -175,7 +175,7 @@ ollama list
 
 ### Vidéo #1 Stage d'observation du 17 au 21 décembre 2025 au sein de France Médias Monde (Français)
 
-[Vidéo #1 Stage d'observation du 17 au 21 décembre 2025 au sein de France Médias Monde (Français)](https://www.youtube.com/watch?v=g8PK-lEw9Ug)[![Vidéo #1 Stage d'observation du 17 au 21 décembre 2025 au sein de France Médias Monde (Français)](explications_maksim_1.png)](https://www.youtube.com/watch?v=g8PK-lEw9Ug)
+[Vidéo #1 Stage d'observation du 17 au 21 décembre 2025 au sein de France Médias Monde (Français)](https://www.youtube.com/watch?v=vyjRmXuuiAo)[![Vidéo #1 Stage d'observation du 17 au 21 décembre 2025 au sein de France Médias Monde (Français)](explications_maksim_1.png)](https://www.youtube.com/watch?v=vyjRmXuuiAo)
 
 
 
