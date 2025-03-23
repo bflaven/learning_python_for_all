@@ -218,5 +218,6 @@ git commit -am "updates files maksim"
 git push
 # git push -u origin main
 # git push origin master
+# git push --force
 
 ```
